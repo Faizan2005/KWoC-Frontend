@@ -4,14 +4,13 @@ import ProjectCard from "../components/ProjectCard";
 import { makeRequest } from "../util/backend";
 import { IEndpointTypes } from "../util/types";
 import { shuffle } from "../util/shuffle";
+import projects_data from "../data/projects_data.json";
 import Fuse from "fuse.js";
 import SpinnerLoader from "../components/SpinnerLoader";
 import { IconContext } from "react-icons";
 
 function Projects() {
-  const [projects, setProjects] = useState<
-    IEndpointTypes["project"]["response"]
-  >([]);
+  const [projects, setProjects] = useState(projects_data);
   const [error, setError] = useState<string | null>(null);
 
   const [query, setQuery] = useState("");
@@ -28,22 +27,6 @@ function Projects() {
 
   const searchResults =
     query !== "" ? results.map((result) => result.item) : projects;
-
-  useEffect(() => {
-    makeRequest("project", "get")
-      .then((response) => {
-        if (response.is_ok) {
-          setProjects(shuffle(response.response));
-        } else {
-          setError("Error fetching projects.");
-          console.log(response.response);
-        }
-      })
-      .catch((e) => {
-        setError("Error fetching projects.");
-        console.log(e);
-      });
-  }, []);
 
   return (
     <div className="flex flex-col items-center pt-28">

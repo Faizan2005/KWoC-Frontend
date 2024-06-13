@@ -170,9 +170,9 @@ function MobileNavbar({ toggleMobileMenu }: { toggleMobileMenu: () => void }) {
         <div>
           <ul className="mr-4 text-right">
             {LinksList(true)}
-            <IconContext.Provider value={{ size: "2.5em" }}>
+            {/* <IconContext.Provider value={{ size: "2.5em" }}>
               <LoginButton isMobile={true} />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
           </ul>
         </div>
       </nav>
