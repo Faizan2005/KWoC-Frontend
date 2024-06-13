@@ -140,9 +140,9 @@ function Navbar() {
           >
             {LinksList(false)}
 
-            <IconContext.Provider value={{ size: "2.3em" }}>
+            {/* <IconContext.Provider value={{ size: "2.3em" }}>
               <LoginButton isMobile={false} />
-            </IconContext.Provider>
+            </IconContext.Provider> */}
           </ul>
         </div>
       </nav>
