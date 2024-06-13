@@ -6,17 +6,17 @@ import Github from "../assets/github.png";
 export default function Stats() {
   const cards = [
     {
-      title: "500",
+      title: "1,393",
       description: "Contributors",
       image: Contributors,
     },
     {
-      title: "500k+",
+      title: "994,706",
       description: "Lines Of Code",
       image: Github,
     },
     {
-      title: "10k",
+      title: "503",
       description: "Pull Requests",
       image: Pull,
     },
