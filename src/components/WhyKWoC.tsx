@@ -43,7 +43,7 @@ export default function WhyKWoC() {
           }
           content={
             <span>
-              Top performers in KWoC also have the opportunity to win fantastic
+              Top performers in KWoC have had the opportunity to win fantastic
               prizes and rewards from{" "}
               <a
                 className="text-primary font-semibold hover:text-primary-600"
