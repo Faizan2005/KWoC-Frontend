@@ -11,8 +11,8 @@ export default function Stats() {
       image: Contributors,
     },
     {
-      title: "994,706",
-      description: "Lines Of Code",
+      title: "1M+",
+      description: "Lines Changed Across 1353 Commits",
       image: Github,
     },
     {
