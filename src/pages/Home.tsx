@@ -53,12 +53,12 @@ function Home() {
         <Hero />
       </section>
       <section className="bg-black/60 py-32 clip-path-polygonDesignSmall md:clip-path-polygonDesign">
+        <Stats />
+        <Contributors />
         <About />
         <WhyKWoC />
         <Timeline />
-        <Testimonials />
-        <Stats />
-        <Contributors />
+        <Testimonials /> 
         <JoinOurCommunity />
         <FooterSection />
       </section>

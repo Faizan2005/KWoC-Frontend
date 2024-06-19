@@ -2,7 +2,7 @@ import Data from "../data/Contributors.json";
 
 export default function Contributors() {
   return (
-    <div>
+    <div className="mt-20 mb-40">
       <h1 className="font-display mb-5 text-zinc-300 text-center text-4xl font-extrabold leading-none tracking-tight md:text-4xl lg:text-7xl">
         Hall Of Fame
       </h1>
