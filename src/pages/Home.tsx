@@ -10,6 +10,7 @@ import JoinOurCommunity from "../components/JoinOurCommunity";
 import Timeline from "../components/Timeline";
 import Testimonials from "../components/Testimonials";
 import Stats from "../components/Stats";
+import Contributors from "../components/Contributors";
 import FooterSection from "../components/FooterSection";
 
 const snowflake_images = [
@@ -57,6 +58,7 @@ function Home() {
         <Timeline />
         <Testimonials />
         <Stats />
+        <Contributors />
         <JoinOurCommunity />
         <FooterSection />
       </section>

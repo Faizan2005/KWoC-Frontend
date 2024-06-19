@@ -22,7 +22,7 @@ export default function Stats() {
     },
   ];
   return (
-    <div>
+    <div className="mb-40">
       <h1 className="font-display mb-20 text-zinc-300 text-center text-4xl font-extrabold leading-none tracking-tight md:text-4xl lg:text-7xl">
         Statistics
       </h1>
