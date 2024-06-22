@@ -1,2141 +1,1397 @@
 [
   {
-      "id": 109,
-      "name": "VigyBag",
-      "description": "vigyBag is an Ecommerce website which is help to buy product near to shop - Location based shopping solution",
-      "mentor": {
-          "id": 88,
-          "created_at": "2023-11-29 16:15:21.627956+00",
-          "updated_at": "2023-11-29 16:15:21.627956+00",
-          "deleted_at": null,
-          "name": "Vivek Prajapati",
-          "username": "codervivek5"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/pkzWGuBY",
-      "repo_link": "https://github.com/codervivek5/vigyBag/"
-  },
-  {
-      "id": 95,
-      "name": "Vlab Solutions ",
-      "description": "This project is a web application designed to assist colleges and students in managing their assignment works and conducting tests online. The platform is built using React for the frontend and Node.js with Express.js for the backend. MongoDB serves as the database to store essential information.",
-      "mentor": {
-          "id": 71,
-          "created_at": "2023-11-26 18:26:07.635039+00",
-          "updated_at": "2023-11-26 18:26:07.635039+00",
-          "deleted_at": null,
-          "name": "Nazim Qureshi",
-          "username": "officialarmannqureshi"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/yM2y9Tmk",
-      "repo_link": "https://github.com/officialarmannqureshi/vlabsolutions"
-  },
-  {
-      "id": 80,
-      "name": "Drive_BOX",
-      "description": "Drive-BOX is a collaborative platform where users can log in, upload their projects, and collaborate with others. The project is hosted on a web hosting website named \"railway,\" making it accessible to users worldwide. Its functionality is similar to that of GitHub, providing a user-friendly interface for uploading and managing projects.",
-      "mentor": {
-          "id": 45,
-          "created_at": "2023-11-21 11:28:41.460455+00",
-          "updated_at": "2023-11-21 11:28:41.460455+00",
-          "deleted_at": null,
-          "name": "Pratyush Nagpal",
-          "username": "pratt0007"
-      },
-      "secondary_mentor": {
-          "id": 41,
-          "created_at": "2023-11-21 05:54:03.62923+00",
-          "updated_at": "2023-11-21 05:54:03.62923+00",
-          "deleted_at": null,
-          "name": "Ishaan Adarsh",
-          "username": "IshaanAdarsh"
-      },
-      "comm_channel": "https://discord.gg/84NZ5bgz",
-      "repo_link": "https://github.com/pratt0007/Drive_BOX"
-  },
-  {
-      "id": 135,
-      "name": "MetaKGP Wiki",
-      "description": "The containerized source code for the MetaKGP community wiki, built with MediaWiki.",
-      "mentor": {
-          "id": 8,
-          "created_at": "2023-11-14 06:11:58.166853+00",
-          "updated_at": "2023-11-14 06:11:58.166853+00",
-          "deleted_at": null,
-          "name": "Harsh Khandeparkar",
-          "username": "harshkhandeparkar"
-      },
-      "secondary_mentor": {
-          "id": 7,
-          "created_at": "2023-11-14 04:59:07.797857+00",
-          "updated_at": "2023-11-17 15:46:10.929291+00",
-          "deleted_at": null,
-          "name": "Rajiv Harlalka",
-          "username": "rajivharlalka"
-      },
-      "comm_channel": "https://slack.metakgp.org/",
-      "repo_link": "https://github.com/metakgp/metakgp-wiki"
-  },
-  {
-      "id": 45,
-      "name": "Devlabs",
-      "description": " Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community",
-      "mentor": {
-          "id": 6,
-          "created_at": "2023-11-14 04:55:34.111584+00",
-          "updated_at": "2023-11-14 04:55:34.111584+00",
-          "deleted_at": null,
-          "name": "Himanshu Narware",
-          "username": "HimanshuNarware"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/4NyeYC2n4j",
-      "repo_link": "https://github.com/HimanshuNarware/Devlabs"
-  },
-  {
-      "id": 44,
-      "name": "Expiration Date Tracker",
-      "description": "WasteNot is a web application designed to help users keep track of their food items, manage expiration dates, and make informed grocery decisions. The app includes features such as user authentication, food item addition through various methods (receipt, photo, barcode), and timely reminders about expiring items.",
-      "mentor": {
-          "id": 5,
-          "created_at": "2023-11-14 04:53:43.815958+00",
-          "updated_at": "2023-11-14 04:53:43.815958+00",
-          "deleted_at": null,
-          "name": "Ikshita Agarwal",
-          "username": "ishuonly"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://github.com/ishuonly/ExpirationDateTracker/discussions",
-      "repo_link": "https://github.com/ishuonly/ExpirationDateTracker"
-  },
-  {
-      "id": 93,
-      "name": "MineDroid",
-      "description": "Chatbot to respond to text queries pertaining to various Acts, Rules, and Regulations applicable to Mining industries",
-      "mentor": {
-          "id": 50,
-          "created_at": "2023-11-22 17:02:26.722343+00",
-          "updated_at": "2023-11-22 17:02:26.722343+00",
-          "deleted_at": null,
-          "name": "Satyam Rathi",
-          "username": "satyamrathirar"
-      },
-      "secondary_mentor": {
-          "id": 40,
-          "created_at": "2023-11-20 18:23:16.189202+00",
-          "updated_at": "2023-11-20 18:23:16.189202+00",
-          "deleted_at": null,
-          "name": "sanvi",
-          "username": "ciaokitty"
-      },
-      "comm_channel": "https://discord.gg/arH3tRhVTq",
-      "repo_link": "https://github.com/SohamKukreti/MineDroid"
-  },
-  {
-      "id": 94,
-      "name": "Resonate",
-      "description": "An Open Source Social Voice Platform - Flutter Application",
-      "mentor": {
-          "id": 70,
-          "created_at": "2023-11-26 17:02:34.753702+00",
-          "updated_at": "2023-11-26 17:02:34.753702+00",
-          "deleted_at": null,
-          "name": "Chandan Gowda",
-          "username": "chandansgowda"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/HKnHDW4xTG",
-      "repo_link": "https://github.com/AOSSIE-Org/Resonate"
-  },
-  {
-      "id": 106,
-      "name": "TeachGPT",
-      "description": "TeachGPT is a open-source initiative focused on developing an AI-Powered Virtual Tutor. This innovative virtual tutor leverages the full potential of artificial intelligence to revolutionize the way we learn. The primary objective is to construct a Large Language Model(LLM) that dynamically adjusts to individual learning styles while delivering lifelike conversations through AI agents. This is complemented by seamless integration of speech recognition technology and the strategic incorporation of gamification methods .",
-      "mentor": {
-          "id": 82,
-          "created_at": "2023-11-27 17:03:09.660766+00",
-          "updated_at": "2023-11-27 17:03:09.660766+00",
-          "deleted_at": null,
-          "name": "Priyadharshini ",
-          "username": "Priyamakeshwari"
-      },
-      "secondary_mentor": {
-          "id": 81,
-          "created_at": "2023-11-27 17:02:51.878981+00",
-          "updated_at": "2023-11-27 17:02:51.878981+00",
-          "deleted_at": null,
-          "name": "Kuldeep",
-          "username": "neokd"
-      },
-      "comm_channel": "https://discord.gg/hEr97zTPtN",
-      "repo_link": "https://github.com/Priyamakeshwari/TeachGPT"
-  },
-  {
-      "id": 3,
-      "name": "Chillzone",
-      "description": "Find a place to chill during class hours in IIT KGP",
-      "mentor": {
-          "id": 1,
-          "created_at": "2023-11-13 23:31:51.390581+00",
-          "updated_at": "2023-11-13 23:31:51.390581+00",
-          "deleted_at": null,
-          "name": "Chirag Ghosh",
-          "username": "chirag-ghosh"
-      },
-      "secondary_mentor": {
-          "id": 7,
-          "created_at": "2023-11-14 04:59:07.797857+00",
-          "updated_at": "2023-11-17 15:46:10.929291+00",
-          "deleted_at": null,
-          "name": "Rajiv Harlalka",
-          "username": "rajivharlalka"
-      },
-      "comm_channel": "https://slack.metakgp.org",
-      "repo_link": "https://github.com/metakgp/chillzone"
-  },
-  {
-      "id": 136,
-      "name": "DoodleCollab",
-      "description": "Dynamic web application designed for seamless collaboration on mockup drawings. Whether you're sketching wireframes, designing user interfaces, or brainstorming ideas visually, it provides an intuitive platform where users can create, share, and collaborate in real-time.",
-      "mentor": {
-          "id": 111,
-          "created_at": "2023-12-14 17:00:11.011514+00",
-          "updated_at": "2023-12-14 17:00:11.011514+00",
-          "deleted_at": null,
-          "name": "Jyotirmoy Roy",
-          "username": "ItsRoy69"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/VWHHr7ZqZR",
-      "repo_link": "https://github.com/WikiPortal/DoodleCollab"
-  },
-  {
-      "id": 122,
-      "name": "Linkscrape",
-      "description": "LinkScrape is a dynamic application designed to extract and collect essential links from specific websites. It operates by traversing through the pages of a designated site, meticulously capturing the names of embedded links along with their respective addresses. All you have to do is enter the link address in the placeholder and click on scrape. All the embedded links of that particular website is list down in the form of table with their names. Repeat the same process make sure to delete the previous history before considering another URL's.  Future implementation includes Content based Filtering UI/UX enhancement, AI driven tags, File extraction in CSV, JSON, Adding geolocation ,Analytical Dashboard",
-      "mentor": {
-          "id": 104,
-          "created_at": "2023-12-04 12:45:05.222729+00",
-          "updated_at": "2023-12-04 12:45:05.222729+00",
-          "deleted_at": null,
-          "name": "Shreya Nalawade",
-          "username": "Shreya111111"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/channels/1134784875900186624/1134784876491575401",
-      "repo_link": "https://github.com/Shreya111111/Linkscrape"
-  },
-  {
-      "id": 113,
-      "name": "Zoo",
-      "description": "ZOO(for  Hostelers )- A Svelte-based project to streamline hostel management and student life.  Key Features:  Efficient room allocation system Mess management and feedback portal Maintenance request tracking Event calendar and visitor management",
-      "mentor": {
-          "id": 83,
-          "created_at": "2023-11-27 17:05:45.996262+00",
-          "updated_at": "2023-11-27 17:05:45.996262+00",
-          "deleted_at": null,
-          "name": "Aman Deep",
-          "username": "1palermo"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/vd52kgC77J",
-      "repo_link": "https://github.com/1palermo/Zoo"
-  },
-  {
-      "id": 76,
-      "name": "NOSC Website",
-      "description": "We are the NIT Raipur Open Source Community (NOSC), a passionate group of individuals dedicated to the world of open source software. Our mission is to foster a culture of collaboration, learning, and innovation through open source projects and initiatives.  At NOSC, we believe in the power of open source to drive positive change, and we welcome contributors from all backgrounds and skill levels to join us in our journey.",
-      "mentor": {
-          "id": 43,
-          "created_at": "2023-11-21 05:59:02.862805+00",
-          "updated_at": "2023-11-21 05:59:02.862805+00",
-          "deleted_at": null,
-          "name": "Abhinav Srinivas",
-          "username": "nown1ne"
-      },
-      "secondary_mentor": {
-          "id": 41,
-          "created_at": "2023-11-21 05:54:03.62923+00",
-          "updated_at": "2023-11-21 05:54:03.62923+00",
-          "deleted_at": null,
-          "name": "Ishaan Adarsh",
-          "username": "IshaanAdarsh"
-      },
-      "comm_channel": "https://discord.gg/s8pgtxNd7Z",
-      "repo_link": "https://github.com/NITRR-Open-Source-Community/NOSC-Website"
-  },
-  {
-      "id": 117,
-      "name": "GameSphere",
-      "description": "Our primary goal is to create a website where two or more friends can gather and play games online (such as multiplayer) without having to download any software or tools to their computers or mobile devices.",
-      "mentor": {
-          "id": 25,
-          "created_at": "2023-11-16 09:35:51.314634+00",
-          "updated_at": "2023-11-16 09:35:51.314634+00",
-          "deleted_at": null,
-          "name": "Durgesh kumar prajapati",
-          "username": "Durgesh4993"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/65eUXc7NNc",
-      "repo_link": "https://github.com/Durgesh4993/GameSphere3.0"
-  },
-  {
-      "id": 133,
-      "name": "Swetify-Music",
-      "description": "Welcome to Swetify-Music where you are going to groove on your favourite songs",
-      "mentor": {
-          "id": 95,
-          "created_at": "2023-12-01 13:34:39.146045+00",
-          "updated_at": "2023-12-01 13:34:39.146045+00",
-          "deleted_at": null,
-          "name": "Shwet Khatri",
-          "username": "ShwetKhatri2001"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/mZNx9aQT",
-      "repo_link": "https://github.com/ShwetKhatri2001/Swetify-Music"
-  },
-  {
-      "id": 91,
-      "name": "Face-X",
-      "description": "Demonstration of different algorithms and operations on faces.",
-      "mentor": {
-          "id": 61,
-          "created_at": "2023-11-26 04:57:39.598348+00",
-          "updated_at": "2023-11-26 04:57:39.598348+00",
-          "deleted_at": null,
-          "name": "AKSHITA GUPTA",
-          "username": "akshitagupta15june"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/Jmc97prqjb",
-      "repo_link": "https://github.com/akshitagupta15june/Face-X"
-  },
-  {
-      "id": 69,
-      "name": "Get Your Freaking Electives",
-      "description": "A simple script to find the depth and breadth electives available for you for subject registration",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://slack.metakgp.org",
-      "repo_link": "https://github.com/metakgp/gyfe"
-  },
-  {
-      "id": 114,
-      "name": "Dify",
-      "description": "Easily build and operate generative AI applications. Create Assistants API and GPTs based on any LLMs.",
-      "mentor": {
-          "id": 94,
-          "created_at": "2023-11-30 18:55:48.17713+00",
-          "updated_at": "2023-11-30 18:55:48.17713+00",
-          "deleted_at": null,
-          "name": "Chanchal Kuntal",
-          "username": "Chanchal-D"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/channels/@me",
-      "repo_link": "https://github.com/Chanchal-D/Dify"
-  },
-  {
-      "id": 64,
-      "name": "Mailing Scripts",
-      "description": "Scripts for automation of mailing process for various affairs under KOSS",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/kossiitkgp/mailing-scripts"
-  },
-  {
-      "id": 134,
-      "name": "SwiftWave",
-      "description": "SwiftWave is a self-hosted lightweight PaaS solution to deploy and manage your applications on any VPS without any hassle 👀",
-      "mentor": {
-          "id": 110,
-          "created_at": "2023-12-11 06:12:32.67469+00",
-          "updated_at": "2023-12-11 06:12:32.67469+00",
-          "deleted_at": null,
-          "name": "Tanmoy Sarkar",
-          "username": "tanmoysrt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
-      "repo_link": "https://github.com/swiftwave-org/swiftwave"
-  },
-  {
-      "id": 119,
-      "name": "Grabtern-frontend",
-      "description": "This is a part of a bigger project [Grabtern].. containing several microservice. This [ grabtern-frontend] is a frontend part of the project.",
-      "mentor": {
-          "id": 98,
-          "created_at": "2023-12-03 05:21:32.5439+00",
-          "updated_at": "2023-12-03 05:21:32.5439+00",
-          "deleted_at": null,
-          "name": "Anmol Agrawal",
-          "username": "anmode"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/8ccqParF",
-      "repo_link": "https://github.com/anmode/grabtern-frontend"
-  },
-  {
-      "id": 59,
-      "name": "Code Runner",
-      "description": "Implementation of code-runner in bash for compiling code files and executing them with one and only command",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/proffapt/code-runner"
-  },
-  {
-      "id": 90,
-      "name": "Moksh",
-      "description": "Unlock your potential and achieve true balance in life with Moksh",
-      "mentor": {
-          "id": 61,
-          "created_at": "2023-11-26 04:57:39.598348+00",
-          "updated_at": "2023-11-26 04:57:39.598348+00",
-          "deleted_at": null,
-          "name": "AKSHITA GUPTA",
-          "username": "akshitagupta15june"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/Jmc97prqjb",
-      "repo_link": "https://github.com/akshitagupta15june/Moksh"
-  },
-  {
-      "id": 65,
-      "name": "PGWeb Testing Harness",
-      "description": "This tool is being used to test the official website of PostgreSQL. Some functionalities like storing reports to create an archive are left. You can go through the issues to help out with this project. You only need to know python for this project and experience with Selenium will be an added plus.",
-      "mentor": {
-          "id": 28,
-          "created_at": "2023-11-17 08:00:49.51874+00",
-          "updated_at": "2023-11-17 08:00:49.51874+00",
-          "deleted_at": null,
-          "name": "Akshat Jaimini",
-          "username": "destrex271"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "",
-      "repo_link": "https://github.com/destrex271/pgweb-testing-harness"
-  },
-  {
-      "id": 132,
-      "name": "Weather app",
-      "description": "Provides weather details of different locations ",
-      "mentor": {
-          "id": 102,
-          "created_at": "2023-12-04 03:45:15.218913+00",
-          "updated_at": "2023-12-04 03:45:15.218913+00",
-          "deleted_at": null,
-          "name": "EPSA",
-          "username": "ePSA-eJya"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/qNwWEbfP",
-      "repo_link": "https://github.com/ePSA-eJya/Temp-app.git"
-  },
-  {
-      "id": 81,
-      "name": "DLTA-AI",
-      "description": "DLTA-AI is the next generation of annotation tools, integrating the power of Computer Vision SOTA models to Labelme in a seamless expirence and intuitive workflow to make creating image datasets easier than ever before",
-      "mentor": {
-          "id": 52,
-          "created_at": "2023-11-23 15:59:20.223889+00",
-          "updated_at": "2023-11-23 15:59:20.223889+00",
-          "deleted_at": null,
-          "name": "0ssamaak0",
-          "username": "0ssamaak0"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/xB5eCBwm",
-      "repo_link": "https://github.com/0ssamaak0/DLTA-AI"
-  },
-  {
-      "id": 79,
-      "name": "Omilia",
-      "description": "Omilia is a retro-themed game inspired from platformer games popular in the 90s with an added feature which makes it an educational game.This feature involves a set of questions in different languages which are asked after the player completes each level. TO move to the next level the player must give the right answer.",
-      "mentor": {
-          "id": 49,
-          "created_at": "2023-11-22 16:48:12.93381+00",
-          "updated_at": "2023-11-22 16:48:12.93381+00",
-          "deleted_at": null,
-          "name": "Yuvraj Rathi",
-          "username": "yryuvraj"
-      },
-      "secondary_mentor": {
-          "id": 48,
-          "created_at": "2023-11-22 16:43:46.240185+00",
-          "updated_at": "2023-11-22 16:43:46.240185+00",
-          "deleted_at": null,
-          "name": "Soham Kukreti",
-          "username": "SohamKukreti"
-      },
-      "comm_channel": "https://discord.gg/KNm9jFTgwK",
-      "repo_link": "https://github.com/SohamKukreti/omilia"
-  },
-  {
-      "id": 83,
-      "name": "CalcDiverse",
-      "description": "CalcDiverse is a customized collection of calculators for various aspects of mathematics. Individuals with basic web development knowledge can create distinctive calculators and submit pull requests.",
-      "mentor": {
-          "id": 54,
-          "created_at": "2023-11-24 16:54:08.098403+00",
-          "updated_at": "2023-11-24 16:54:08.098403+00",
-          "deleted_at": null,
-          "name": "Rakesh Roshan",
-          "username": "Rakesh9100"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/ZJvjd986",
-      "repo_link": "https://github.com/Rakesh9100/CalcDiverse"
-  },
-  {
-      "id": 86,
-      "name": "CDS | Official Website",
-      "description": "Official website for CodeDeployingSquad - The largest community of tomorrows open source developers",
-      "mentor": {
-          "id": 11,
-          "created_at": "2023-11-14 10:43:46.830447+00",
-          "updated_at": "2023-11-14 10:43:46.830447+00",
-          "deleted_at": null,
-          "name": "Gopal Verma",
-          "username": "GopalVerma1303"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/8SFAywV4M8",
-      "repo_link": "https://github.com/CodeDeployingSquad/website"
-  },
-  {
-      "id": 49,
-      "name": "community-website",
-      "description": "A website aims to provide the students with information about all the tech opportunities.",
-      "mentor": {
-          "id": 4,
-          "created_at": "2023-11-14 04:28:22.497636+00",
-          "updated_at": "2023-11-14 04:28:22.497636+00",
-          "deleted_at": null,
-          "name": "Kajol Kumari",
-          "username": "Kajol-Kumari"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/hitkteckcommunity/shared_invite/zt-1lols7wdz-rtCFQYBUxlHltJXp3M8bYg",
-      "repo_link": "https://github.com/HITK-TECH-Community/Community-Website"
-  },
-  {
-      "id": 42,
-      "name": "Get Your Freaking Timetable",
-      "description": "Gets your timetable from ERP and adds it to your Google Calendar or gives you an ICS file which you can add in any common calendar application.",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 7,
-          "created_at": "2023-11-14 04:59:07.797857+00",
-          "updated_at": "2023-11-17 15:46:10.929291+00",
-          "deleted_at": null,
-          "name": "Rajiv Harlalka",
-          "username": "rajivharlalka"
-      },
-      "comm_channel": "https://slack.metakgp.org",
-      "repo_link": "https://github.com/metakgp/gyft"
-  },
-  {
-      "id": 54,
-      "name": "Blog Website ",
-      "description": "This is a blog website where user can compose their blogs. The blogs are saved in database.",
-      "mentor": {
-          "id": 26,
-          "created_at": "2023-11-16 16:37:27.175683+00",
-          "updated_at": "2023-11-16 16:37:27.175683+00",
-          "deleted_at": null,
-          "name": "Kritika Gupta",
-          "username": "Kritika30032002"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/k2uuqYN6Ga",
-      "repo_link": "https://github.com/Kritika30032002/Blog_Website"
-  },
-  {
-      "id": 67,
-      "name": "Road Lane Detection System",
-      "description": "The main code initializes the video capture object using the provided video file path. It creates a named window \"Lane Detector\" and adds two trackbars for adjusting the Canny edge detection thresholds. The script then proceeds to process each frame of the video:",
-      "mentor": {
-          "id": 33,
-          "created_at": "2023-11-17 16:36:37.926431+00",
-          "updated_at": "2023-11-17 16:36:37.926431+00",
-          "deleted_at": null,
-          "name": "Lakshit Bakshi",
-          "username": "elle-Bee"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://t.me/+__4-ipvNiw0yNTY1",
-      "repo_link": "https://github.com/elle-Bee/Road-Lane-Detection-System"
-  },
-  {
-      "id": 123,
-      "name": "Spendwise",
-      "description": "Spendwise: Your intuitive, user-friendly expense tracker. Seamlessly manage and understand your finances with simplicity and precision. Track, analyze, and take control of your expenses effortlessly.",
-      "mentor": {
-          "id": 106,
-          "created_at": "2023-12-04 15:58:31.451203+00",
-          "updated_at": "2023-12-04 15:58:31.451203+00",
-          "deleted_at": null,
-          "name": "Ankit Kr Chowdhury",
-          "username": "ani1609"
-      },
-      "secondary_mentor": {
-          "id": 96,
-          "created_at": "2023-12-01 18:24:15.907836+00",
-          "updated_at": "2023-12-01 18:24:15.907836+00",
-          "deleted_at": null,
-          "name": "Niladri Adhikary ",
-          "username": "niladrix719"
-      },
-      "comm_channel": "https://join.slack.com/t/spendwisegroup/shared_invite/zt-28g7vaeb4-ZZbfrM8cpb6j~EEoWvWR2A",
-      "repo_link": "https://github.com/ani1609/Spendwise"
-  },
-  {
-      "id": 72,
-      "name": "KWoC Frontend",
-      "description": "The open-source frontend for Kharagpur Winter of Code written in React, Typescript, and TailwindCSS.",
-      "mentor": {
-          "id": 8,
-          "created_at": "2023-11-14 06:11:58.166853+00",
-          "updated_at": "2023-11-14 06:11:58.166853+00",
-          "deleted_at": null,
-          "name": "Harsh Khandeparkar",
-          "username": "harshkhandeparkar"
-      },
-      "secondary_mentor": {
-          "id": 100,
-          "created_at": "2023-12-03 13:10:43.103935+00",
-          "updated_at": "2023-12-03 13:10:43.103935+00",
-          "deleted_at": null,
-          "name": "Nafisa Parvin",
-          "username": "Nafisay"
-      },
-      "comm_channel": "https://discord.gg/efFwh6fnjk",
-      "repo_link": "https://github.com/kossiitkgp/KWoC-Frontend"
-  },
-  {
-      "id": 60,
-      "name": "Own-Youtube",
-      "description": "An extension to modify YouTube's layout in real-time, like you own it!",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/proffapt/own-youtube"
-  },
-  {
-      "id": 92,
-      "name": "PetMe",
-      "description": "PetMe is an all-in-one platform that allows animals to be adopted, donated to pet lovers, and provides emergency medical care to stray animals in need.",
-      "mentor": {
-          "id": 61,
-          "created_at": "2023-11-26 04:57:39.598348+00",
-          "updated_at": "2023-11-26 04:57:39.598348+00",
-          "deleted_at": null,
-          "name": "AKSHITA GUPTA",
-          "username": "akshitagupta15june"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/Jmc97prqjb",
-      "repo_link": "https://github.com/akshitagupta15june/PetMe"
-  },
-  {
-      "id": 74,
-      "name": "Asteroyd",
-      "description": "A robust & smart code snippet management tool",
-      "mentor": {
-          "id": 21,
-          "created_at": "2023-11-15 12:30:56.273782+00",
-          "updated_at": "2023-11-19 08:34:26.178675+00",
-          "deleted_at": null,
-          "name": "Ujjwal Raj",
-          "username": "ujjwall-R"
-      },
-      "secondary_mentor": {
-          "id": 36,
-          "created_at": "2023-11-19 08:28:46.551113+00",
-          "updated_at": "2023-11-19 08:28:46.551113+00",
-          "deleted_at": null,
-          "name": "Aniket Raj",
-          "username": "grimreaperLinux"
-      },
-      "comm_channel": "https://join.slack.com/t/asteroyd/shared_invite/zt-26k1w6ues-jNKsNiftwLRzbXtdmbBnEQ",
-      "repo_link": "https://github.com/ujjwall-R/Asteroyd"
-  },
-  {
-      "id": 77,
-      "name": "Journal Paper Reader - Chrome Extension",
-      "description": "A chrome extension to make the reading process of journal paper easier by showcasing methods, references and figures beside the text by highlighting",
-      "mentor": {
-          "id": 42,
-          "created_at": "2023-11-21 05:56:16.100812+00",
-          "updated_at": "2023-11-21 05:56:16.100812+00",
-          "deleted_at": null,
-          "name": "ragh qqqqra",
-          "username": "rakaar"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://groups.google.com/u/1/g/easy-paper-reader---kwoc-group",
-      "repo_link": "https://github.com/rakaar/easy-reader-extension"
-  },
-  {
-      "id": 82,
-      "name": "Beautiify",
-      "description": "Beautiify comprises a curated selection of beautifully designed components and animations that can be seamlessly incorporated into any website, elevating its overall UI experience.",
-      "mentor": {
-          "id": 54,
-          "created_at": "2023-11-24 16:54:08.098403+00",
-          "updated_at": "2023-11-24 16:54:08.098403+00",
-          "deleted_at": null,
-          "name": "Rakesh Roshan",
-          "username": "Rakesh9100"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/thH8mECe",
-      "repo_link": "https://github.com/Rakesh9100/Beautiify"
-  },
-  {
-      "id": 55,
-      "name": " To Do List Application",
-      "description": "This is a Simple To Do List Application",
-      "mentor": {
-          "id": 26,
-          "created_at": "2023-11-16 16:37:27.175683+00",
-          "updated_at": "2023-11-16 16:37:27.175683+00",
-          "deleted_at": null,
-          "name": "Kritika Gupta",
-          "username": "Kritika30032002"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/qqvmzNZWRQ",
-      "repo_link": "https://github.com/Kritika30032002/To-Do-List-Application"
-  },
-  {
-      "id": 100,
-      "name": "Beat Bridge",
-      "description": "This Web App is a dedicated application that'll use Spotify API to Fetch Songs and play 'em in the interactive GUI. It Utilizes Spotify API to fetch songs and an interactive GUI for is there for playing music with a  recommendation Engine for suggesting songs.",
-      "mentor": {
-          "id": 76,
-          "created_at": "2023-11-27 06:50:50.011391+00",
-          "updated_at": "2023-11-27 06:50:50.011391+00",
-          "deleted_at": null,
-          "name": "Pooranjoy Bhattacharya",
-          "username": "pooranjoyb"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/PHRnze3W87",
-      "repo_link": "https://github.com/pooranjoyb/BeatBridge"
-  },
-  {
-      "id": 78,
-      "name": "ScrapeIt",
-      "description": "ScrapeIt is a web scraping application built with ReactJS and TailwindCSS. It enables the extraction of HTML content or text from web pages by providing a URL.",
-      "mentor": {
-          "id": 44,
-          "created_at": "2023-11-21 11:25:32.364932+00",
-          "updated_at": "2023-11-21 11:25:32.364932+00",
-          "deleted_at": null,
-          "name": "Shubham Singodiya",
-          "username": "singodiyashubham87"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/uVgtxfyK",
-      "repo_link": "https://github.com/singodiyashubham87/ScrapeIt"
-  },
-  {
-      "id": 97,
-      "name": "Wife Predictor",
-      "description": "This is a fun project that predicts your wife. The web app has been deployed on Netlify.",
-      "mentor": {
-          "id": 75,
-          "created_at": "2023-11-27 03:03:15.565311+00",
-          "updated_at": "2023-11-27 03:03:15.565311+00",
-          "deleted_at": null,
-          "name": "Shubham Singh",
-          "username": "1Shubham7"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discordapp.com/users/1061183828925894696",
-      "repo_link": "https://github.com/1Shubham7/Wife-Predictor-v2"
-  },
-  {
-      "id": 98,
-      "name": "Mission Health",
-      "description": "Converting fat ugly bitches to slim, beautiful, god fearing compassionate divas",
-      "mentor": {
-          "id": 75,
-          "created_at": "2023-11-27 03:03:15.565311+00",
-          "updated_at": "2023-11-27 03:03:15.565311+00",
-          "deleted_at": null,
-          "name": "Shubham Singh",
-          "username": "1Shubham7"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discordapp.com/users/1061183828925894696",
-      "repo_link": "https://github.com/1Shubham7/Calory-tracker-v2"
-  },
-  {
-      "id": 96,
-      "name": "Blogzen",
-      "description": "A collection of resources categorised by tech domains, languages, expertise and much more. Blogzen gives you a quick access to all the resources that you could need at a single place, with a click!",
-      "mentor": {
-          "id": 72,
-          "created_at": "2023-11-26 18:48:06.335123+00",
-          "updated_at": "2023-11-26 18:48:06.335123+00",
-          "deleted_at": null,
-          "name": "piyush gupta",
-          "username": "piug-07"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://www.discord.gg/#1545",
-      "repo_link": "https://github.com/piug-07/blogzen-main"
-  },
-  {
-      "id": 130,
-      "name": "Mocker",
-      "description": "Mocker can generate mock data with API endpoints, powered by faker.js",
-      "mentor": {
-          "id": 57,
-          "created_at": "2023-11-25 15:19:05.815792+00",
-          "updated_at": "2023-11-25 15:19:05.815792+00",
-          "deleted_at": null,
-          "name": "Shelcia",
-          "username": "shelcia"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/Y78J76eNt6",
-      "repo_link": "https://github.com/shelcia/mocker"
-  },
-  {
-      "id": 73,
-      "name": "KWoC Backend",
-      "description": "The backend API for Kharagpur Winter of Code written in Go.",
-      "mentor": {
-          "id": 8,
-          "created_at": "2023-11-14 06:11:58.166853+00",
-          "updated_at": "2023-11-14 06:11:58.166853+00",
-          "deleted_at": null,
-          "name": "Harsh Khandeparkar",
-          "username": "harshkhandeparkar"
-      },
-      "secondary_mentor": {
-          "id": 7,
-          "created_at": "2023-11-14 04:59:07.797857+00",
-          "updated_at": "2023-11-17 15:46:10.929291+00",
-          "deleted_at": null,
-          "name": "Rajiv Harlalka",
-          "username": "rajivharlalka"
-      },
-      "comm_channel": "https://discord.gg/efFwh6fnjk",
-      "repo_link": "https://github.com/kossiitkgp/KWoC-Backend"
-  },
-  {
-      "id": 127,
-      "name": "Cyber Sentinel",
-      "description": "A vulnerable webapp to make developers aware on how vulnerabilities are exploited in the wild",
-      "mentor": {
-          "id": 101,
-          "created_at": "2023-12-03 19:46:06.328044+00",
-          "updated_at": "2023-12-03 19:46:06.328044+00",
-          "deleted_at": null,
-          "name": "Suchit",
-          "username": "SuchitReddi"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/opensrccybersentinel/shared_invite/zt-28f973fci-7ObrO7JK8jE7FNG3qDiLvQ",
-      "repo_link": "https://github.com/SuchitReddi/cybersentinel"
-  },
-  {
-      "id": 131,
-      "name": "Notes Application",
-      "description": "Welcome to our Notes Application – your go-to platform for streamlined note-taking! Crafted with Next.js and powered by Firebase, this application seamlessly combines efficiency and simplicity. Take organized notes, access them anytime, anywhere, and elevate your productivity. Your thoughts, our platform – the perfect harmony for a clutter-free note-taking experience.",
-      "mentor": {
-          "id": 69,
-          "created_at": "2023-11-26 17:02:20.528822+00",
-          "updated_at": "2023-11-26 17:02:20.528822+00",
-          "deleted_at": null,
-          "name": "Rohan Wandre",
-          "username": "rohan9024"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/YwqHqCyPWy",
-      "repo_link": "https://github.com/rohan9024/notes"
-  },
-  {
-      "id": 57,
-      "name": "Top Secrets",
-      "description": "This is a website that allows user to add their secrets anonymously to the website. Thus makes its interesting. One can add their secrets that they don't want to share with anyone.",
-      "mentor": {
-          "id": 26,
-          "created_at": "2023-11-16 16:37:27.175683+00",
-          "updated_at": "2023-11-16 16:37:27.175683+00",
-          "deleted_at": null,
-          "name": "Kritika Gupta",
-          "username": "Kritika30032002"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/DcgxHdAWka",
-      "repo_link": "https://github.com/Kritika30032002/Top_Secrets"
-  },
-  {
-      "id": 107,
-      "name": "Code Buddy",
-      "description": "Code Buddy is a platform designed to help developers and programmers find suitable coding partners for collaboration on various projects. Whether you're working on personal projects, open-source contributions, or simply seeking someone to learn and code together, Code Buddy is here to facilitate connections between like-minded individuals.",
-      "mentor": {
-          "id": 75,
-          "created_at": "2023-11-27 03:03:15.565311+00",
-          "updated_at": "2023-11-27 03:03:15.565311+00",
-          "deleted_at": null,
-          "name": "Shubham Singh",
-          "username": "1Shubham7"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discordapp.com/users/1061183828925894696",
-      "repo_link": "https://github.com/1Shubham7/code-buddy"
-  },
-  {
-      "id": 50,
-      "name": "Whiteboard App for Rocket.Chat (GSoC'23)",
-      "description": "Enhance your collaborative experience with diagrams, drawings, and more using Whiteboard Integration in Rocket.Chat. Whiteboard App provides a seamless environment for real-time visual communication and brainstorming.",
-      "mentor": {
-          "id": 19,
-          "created_at": "2023-11-15 09:07:03.110179+00",
-          "updated_at": "2023-11-15 09:07:03.110179+00",
-          "deleted_at": null,
-          "name": "Vinayak Sharma",
-          "username": "CulturalProfessor"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://open.rocket.chat/channel/white-board-integration-team",
-      "repo_link": "https://github.com/RocketChat/Apps.Whiteboard"
-  },
-  {
-      "id": 121,
-      "name": "Memory Wipe",
-      "description": "A storage wiper targeting IoT devices and SSDs",
-      "mentor": {
-          "id": 101,
-          "created_at": "2023-12-03 19:46:06.328044+00",
-          "updated_at": "2023-12-03 19:46:06.328044+00",
-          "deleted_at": null,
-          "name": "Suchit",
-          "username": "SuchitReddi"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/opensrcmemorywipe/shared_invite/zt-28olrjb9t-0k61qROOR8SHwBdbUZLf5g",
-      "repo_link": "https://github.com/SuchitReddi/memorywipe"
-  },
-  {
-      "id": 101,
-      "name": "ML-Crate",
-      "description": "ML Crate stands as the ultimate hub for a multitude of exciting ML projects, serving as the go-to resource haven for passionate and dedicated ML enthusiasts! ",
-      "mentor": {
-          "id": 78,
-          "created_at": "2023-11-27 14:04:30.947681+00",
-          "updated_at": "2023-11-27 14:04:30.947681+00",
-          "deleted_at": null,
-          "name": "Abhishek Sharma",
-          "username": "abhisheks008"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/eGaV2tzBhx",
-      "repo_link": "https://github.com/abhisheks008/ML-Crate"
-  },
-  {
-      "id": 112,
-      "name": "digitomize",
-      "description": "Digitomize, part of Microsoft for Startups Founders Hub, is an open-source platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming coding contests and dynamically create developer portfolios.",
-      "mentor": {
-          "id": 90,
-          "created_at": "2023-11-30 04:28:18.489416+00",
-          "updated_at": "2023-11-30 04:28:18.489416+00",
-          "deleted_at": null,
-          "name": "Pranshu Gupta",
-          "username": "pranshugupta54"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://digitomize.com/discord",
-      "repo_link": "https://github.com/digitomize/digitomize"
-  },
-  {
-      "id": 99,
-      "name": "chrome-extensions",
-      "description": "This repository hosts a collection of Chrome extensions designed for diverse purposes. Each extension has its own folder within this repository, with some already developed and others awaiting creation.",
-      "mentor": {
-          "id": 68,
-          "created_at": "2023-11-26 16:55:22.931996+00",
-          "updated_at": "2023-11-26 16:55:22.931996+00",
-          "deleted_at": null,
-          "name": "nikunj",
-          "username": "nik132-eng"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/xPM9Syrk",
-      "repo_link": "https://github.com/nik132-eng/chrome-extensions"
-  },
-  {
-      "id": 102,
-      "name": "METAVERSE",
-      "description": "🚀 Welcome to our GitHub repository, officially accepted for Codepeak '23   👾 & KWOC 2023! Explore a dynamic collection of front-end projects, powered by HTML, CSS, JavaScript, and React. Join our community to contribute your creations 🎨, add features 🛠️, or squash bugs 🐛 in existing projects. ",
-      "mentor": {
-          "id": 79,
-          "created_at": "2023-11-27 16:04:52.708671+00",
-          "updated_at": "2023-11-27 16:04:52.708671+00",
-          "deleted_at": null,
-          "name": "Arpan Chowdhury",
-          "username": "apu52"
-      },
-      "secondary_mentor": {
-          "id": 91,
-          "created_at": "2023-11-30 14:15:34.586168+00",
-          "updated_at": "2023-11-30 14:15:34.586168+00",
-          "deleted_at": null,
-          "name": "Shuvadipta Das",
-          "username": "5h0ov"
-      },
-      "comm_channel": "https://discord.gg/xZcnDRtq",
-      "repo_link": "https://github.com/apu52/METAVERSE"
-  },
-  {
-      "id": 56,
-      "name": "React Creations",
-      "description": "Welcome to our open-source React Creations. Join us in building, improving, and innovating together in the world of React development!",
-      "mentor": {
-          "id": 26,
-          "created_at": "2023-11-16 16:37:27.175683+00",
-          "updated_at": "2023-11-16 16:37:27.175683+00",
-          "deleted_at": null,
-          "name": "Kritika Gupta",
-          "username": "Kritika30032002"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/4dtqXcfeKM",
-      "repo_link": "https://github.com/Kritika30032002/ReactCreations"
-  },
-  {
-      "id": 115,
-      "name": "NFT-MANIA",
-      "description": "Transforming gaming with NFTs: Our platform lets gamers buy and sell unique play cards while maintaining trust and authenticity. Also including blockchain bridge for import and export of nft's including 3d model, tokens, play cards, digital marketing and also use open ai for the generation of metabase.",
-      "mentor": {
-          "id": 94,
-          "created_at": "2023-11-30 18:55:48.17713+00",
-          "updated_at": "2023-11-30 18:55:48.17713+00",
-          "deleted_at": null,
-          "name": "Chanchal Kuntal",
-          "username": "Chanchal-D"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/channels/@me",
-      "repo_link": "https://github.com/Chanchal-D/NFT-MANIA"
-  },
-  {
-      "id": 118,
-      "name": "Project_Hunt",
-      "description": " Project_Hunt is an open-source collection of React components, web-based games, and web development tools and components. It's designed to be a valuable resource for web developers.",
-      "mentor": {
-          "id": 6,
-          "created_at": "2023-11-14 04:55:34.111584+00",
-          "updated_at": "2023-11-14 04:55:34.111584+00",
-          "deleted_at": null,
-          "name": "Himanshu Narware",
-          "username": "HimanshuNarware"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/K786TS3EdS",
-      "repo_link": "https://github.com/HimanshuNarware/Project_Hunt"
-  },
-  {
-      "id": 120,
-      "name": "Semantic PDFs search",
-      "description": "Terminal App to search semantically in a folder of PDFs",
-      "mentor": {
-          "id": 42,
-          "created_at": "2023-11-21 05:56:16.100812+00",
-          "updated_at": "2023-11-21 05:56:16.100812+00",
-          "deleted_at": null,
-          "name": "ragh qqqqra",
-          "username": "rakaar"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://groups.google.com/u/1/g/semantic-pdfs-search---kwoc",
-      "repo_link": "https://github.com/rakaar/semantic-search-in-a-pdfs-folder"
-  },
-  {
-      "id": 124,
-      "name": "ai-economy-simulator",
-      "description": "Can we simulate macroeconomic factors using microeconomy of individual ventures?  If AI is too smart now, can it do this?",
-      "mentor": {
-          "id": 109,
-          "created_at": "2023-12-05 08:13:51.655591+00",
-          "updated_at": "2023-12-05 08:13:51.655591+00",
-          "deleted_at": null,
-          "name": "Amish Mittal",
-          "username": "fliptrail"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/aZzhkzHTVr",
-      "repo_link": "https://github.com/ai-economy-simulator/ecosim-client"
-  },
-  {
-      "id": 125,
-      "name": "Photo-Editor",
-      "description": "This photo editing application is one of those elegantly powerful PHP project ideas that blend JavaScript and PHP to produce a web app for users to create beautiful digital artwork. This PHP project also forces you to use object-oriented programming, which is a great way to hone these skills.",
-      "mentor": {
-          "id": 25,
-          "created_at": "2023-11-16 09:35:51.314634+00",
-          "updated_at": "2023-11-16 09:35:51.314634+00",
-          "deleted_at": null,
-          "name": "Durgesh kumar prajapati",
-          "username": "Durgesh4993"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/65eUXc7NNc",
-      "repo_link": "https://github.com/Durgesh4993/Photo-Editor"
-  },
-  {
-      "id": 126,
-      "name": "CryptoX",
-      "description": "Buy & Sell Digital Assets In The CryptoX Coin CryptoX is the easiest, safest, and fastest way to buy & sell crypto asset exchange.",
-      "mentor": {
-          "id": 25,
-          "created_at": "2023-11-16 09:35:51.314634+00",
-          "updated_at": "2023-11-16 09:35:51.314634+00",
-          "deleted_at": null,
-          "name": "Durgesh kumar prajapati",
-          "username": "Durgesh4993"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/65eUXc7NNc",
-      "repo_link": "https://github.com/Durgesh4993/CryptoX"
-  },
-  {
-      "id": 129,
-      "name": "Bloggram",
-      "description": "A blog website where users can create their blog, edit, delete and share to other users",
-      "mentor": {
-          "id": 57,
-          "created_at": "2023-11-25 15:19:05.815792+00",
-          "updated_at": "2023-11-25 15:19:05.815792+00",
-          "deleted_at": null,
-          "name": "Shelcia",
-          "username": "shelcia"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/Y78J76eNt6",
-      "repo_link": "https://github.com/shelcia/Bloggram"
-  },
-  {
-      "id": 105,
-      "name": "NeoGPT",
-      "description": "Chat effortlessly with Documents, YouTube Videos,Code, and Social Media Chats. Your go-to for quick and smart interactions! 🤖💬",
-      "mentor": {
-          "id": 81,
-          "created_at": "2023-11-27 17:02:51.878981+00",
-          "updated_at": "2023-11-27 17:02:51.878981+00",
-          "deleted_at": null,
-          "name": "Kuldeep",
-          "username": "neokd"
-      },
-      "secondary_mentor": {
-          "id": 82,
-          "created_at": "2023-11-27 17:03:09.660766+00",
-          "updated_at": "2023-11-27 17:03:09.660766+00",
-          "deleted_at": null,
-          "name": "Priyadharshini ",
-          "username": "Priyamakeshwari"
-      },
-      "comm_channel": "https://discord.gg/7xU954VYvs",
-      "repo_link": "https://github.com/neokd/NeoGPT"
-  },
-  {
-      "id": 48,
-      "name": "CropSync",
-      "description": "CropSync is a user-friendly website designed to assist farmers in selecting the right crops for their fields and providing essential information throughout the farming process.",
-      "mentor": {
-          "id": 12,
-          "created_at": "2023-11-14 17:15:01.507899+00",
-          "updated_at": "2023-11-14 17:15:01.507899+00",
-          "deleted_at": null,
-          "name": "ThatOneKrish",
-          "username": "KrishGaur1354"
-      },
-      "secondary_mentor": {
-          "id": 18,
-          "created_at": "2023-11-15 05:20:47.581786+00",
-          "updated_at": "2023-11-15 05:20:47.581786+00",
-          "deleted_at": null,
-          "name": "Nityam Madaan",
-          "username": "w-nityammm"
-      },
-      "comm_channel": "https://join.slack.com/t/cropsync/shared_invite/zt-27njkuptz-wLOl57rBnVALRPBB4rgJSw",
-      "repo_link": "https://github.com/cropsync/CropSync"
-  },
-  {
-      "id": 58,
-      "name": "MetaHub",
-      "description": "A repository to document PtokaX DC setup at IIT Kharagpur",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/proffapt/Metahub"
-  },
-  {
-      "id": 51,
-      "name": "Dree",
-      "description": "One single package for visualization, debugging, and exploration of folder hierarchies.  Say no to bulky file managers with Dree.",
-      "mentor": {
-          "id": 21,
-          "created_at": "2023-11-15 12:30:56.273782+00",
-          "updated_at": "2023-11-19 08:34:26.178675+00",
-          "deleted_at": null,
-          "name": "Ujjwal Raj",
-          "username": "ujjwall-R"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/dreecommunity/shared_invite/zt-27e8ojiy8-dBmfU6LwIe2w6Cx0mi4Maw",
-      "repo_link": "https://github.com/ujjwall-R/Dree"
-  },
-  {
-      "id": 46,
-      "name": "Hive",
-      "description": "Self-hosted Newsletter Archive",
-      "mentor": {
-          "id": 13,
-          "created_at": "2023-11-14 17:26:27.892057+00",
-          "updated_at": "2023-11-14 17:26:27.892057+00",
-          "deleted_at": null,
-          "name": "Parth Paradkar",
-          "username": "parth-paradkar"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://wa.link/r1jm77",
-      "repo_link": "https://github.com/parth-paradkar/hive"
-  },
-  {
-      "id": 53,
-      "name": "NoteXplorer-API",
-      "description": "This is an API which scrapes information about upcoming Hackathons and Tech Programs from different websites and enlists them. It is part of a project called NoteX",
-      "mentor": {
-          "id": 24,
-          "created_at": "2023-11-16 06:39:27.807705+00",
-          "updated_at": "2023-11-16 06:39:27.807705+00",
-          "deleted_at": null,
-          "name": "Subroto Banerjee",
-          "username": "TeeWrath"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/ZE9GQZ9rff",
-      "repo_link": "https://github.com/TeeWrath/NoteXplorer-API"
-  },
-  {
-      "id": 128,
-      "name": "Dynamic Portfolio",
-      "description": "Dynamic Portfolio helps you create simple websites by just filling out forms.",
-      "mentor": {
-          "id": 57,
-          "created_at": "2023-11-25 15:19:05.815792+00",
-          "updated_at": "2023-11-25 15:19:05.815792+00",
-          "deleted_at": null,
-          "name": "Shelcia",
-          "username": "shelcia"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/Y78J76eNt6",
-      "repo_link": "https://github.com/shelcia/dynamic-portfolio"
-  },
-  {
-      "id": 52,
-      "name": "NoteX",
-      "description": "An open source easy-to-use social media application for students to study, share resources, connect with each other, find opportunities and grow. A single platform to cater to all the needs of a student.",
-      "mentor": {
-          "id": 24,
-          "created_at": "2023-11-16 06:39:27.807705+00",
-          "updated_at": "2023-11-16 06:39:27.807705+00",
-          "deleted_at": null,
-          "name": "Subroto Banerjee",
-          "username": "TeeWrath"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/ZE9GQZ9rff",
-      "repo_link": "https://github.com/The-NoteX/NoteX"
-  },
-  {
-      "id": 47,
-      "name": "YABin",
-      "description": "Yet another pastebin, simple but feature-rich, along with a CLI client",
-      "mentor": {
-          "id": 17,
-          "created_at": "2023-11-15 04:09:52.891081+00",
-          "updated_at": "2023-11-15 04:09:52.891081+00",
-          "deleted_at": null,
-          "name": "Soham Sen",
-          "username": "Yureien"
-      },
-      "secondary_mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "comm_channel": "https://discord.gg/FW2hmXPx3H",
-      "repo_link": "https://github.com/Yureien/YABin"
-  },
-  {
-      "id": 61,
-      "name": "fERP",
-      "description": "Stands for Feedback-ERP. Automation extension for IIT KGP ERP feedback",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/proffapt/fERP"
-  },
-  {
-      "id": 62,
-      "name": "IITKGP ERP Login",
-      "description": "he only python package you will ever need to implement login process in ERP for IIT-KGP",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/proffapt/iitkgp-erp-login-pypi"
-  },
-  {
-      "id": 63,
-      "name": "MFTP",
-      "description": "CDC noticeboard at your mail inbox.",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
-      "repo_link": "https://github.com/metakgp/mftp"
-  },
-  {
-      "id": 68,
-      "name": "IITKGP ERP Login Extension",
-      "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
-      "mentor": {
-          "id": 3,
-          "created_at": "2023-11-14 04:01:27.854719+00",
-          "updated_at": "2023-11-14 04:01:27.854719+00",
-          "deleted_at": null,
-          "name": "Arpit Bhardwaj",
-          "username": "proffapt"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://slack.metakgp.org",
-      "repo_link": "https://github.com/metakgp/iitkgp-erp-auto-login"
-  },
-  {
-      "id": 84,
-      "name": "Greeting Time",
-      "description": "A project in C++ which fetch the time from the system and greet the user according to the time fetched.",
-      "mentor": {
-          "id": 54,
-          "created_at": "2023-11-24 16:54:08.098403+00",
-          "updated_at": "2023-11-24 16:54:08.098403+00",
-          "deleted_at": null,
-          "name": "Rakesh Roshan",
-          "username": "Rakesh9100"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/YVp7uZMk",
-      "repo_link": "https://github.com/Rakesh9100/Greeting-Time"
-  },
-  {
-      "id": 85,
-      "name": "CDS | DiabOpticAI",
-      "description": "Codes integrating computer vision, quantum computing, and neural networks  to find a curated solution for Diabetic Retinopathy",
-      "mentor": {
-          "id": 11,
-          "created_at": "2023-11-14 10:43:46.830447+00",
-          "updated_at": "2023-11-14 10:43:46.830447+00",
-          "deleted_at": null,
-          "name": "Gopal Verma",
-          "username": "GopalVerma1303"
-      },
-      "secondary_mentor": {
-          "id": 55,
-          "created_at": "2023-11-25 07:38:07.596679+00",
-          "updated_at": "2023-11-25 07:38:07.596679+00",
-          "deleted_at": null,
-          "name": "Mansi Kalra",
-          "username": "mansi104-ai"
-      },
-      "comm_channel": "https://discord.com/invite/8SFAywV4M8",
-      "repo_link": "https://github.com/CodeDeployingSquad/DiabOpticAI"
-  },
-  {
-      "id": 87,
-      "name": "CDS | Official Docs",
-      "description": "Official documentation for the largest community of tomorrow's open source developers",
-      "mentor": {
-          "id": 11,
-          "created_at": "2023-11-14 10:43:46.830447+00",
-          "updated_at": "2023-11-14 10:43:46.830447+00",
-          "deleted_at": null,
-          "name": "Gopal Verma",
-          "username": "GopalVerma1303"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/8SFAywV4M8",
-      "repo_link": "https://github.com/CodeDeployingSquad/docs"
-  },
-  {
-      "id": 89,
-      "name": "ML-Image-Alignment",
-      "description": "It aligns the scanned form to the reference form using SIFT (Scale-Invariant Feature Transform) feature matching.",
-      "mentor": {
-          "id": 12,
-          "created_at": "2023-11-14 17:15:01.507899+00",
-          "updated_at": "2023-11-14 17:15:01.507899+00",
-          "deleted_at": null,
-          "name": "ThatOneKrish",
-          "username": "KrishGaur1354"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/8RCH5GDM",
-      "repo_link": "https://github.com/KrishGaur1354/ML-Image-Alignment"
-  },
-  {
-      "id": 138,
-      "name": "HCI-BCI-Lab | Dept. of CSE@ IIT Kharagpur",
-      "description": "An open-source frontend project in React+Vite and TailwindCSS. This project is an initiative by Human-Computer Interaction & Brain-Computer Interaction Lab, Department of Computer Science and Engineering, IIT Kharagpur under the approval of Prof. Debasis Samanta.",
-      "mentor": {
-          "id": 112,
-          "created_at": "2023-12-15 10:50:22.326729+00",
-          "updated_at": "2023-12-15 10:50:22.326729+00",
-          "deleted_at": null,
-          "name": "Harsh Khasbage",
-          "username": "harshkhasbage77"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/eJAks6C7",
-      "repo_link": "https://github.com/harshkhasbage77/IITKGP-HCI-BCI-Lab-Website"
-  },
-  {
-      "id": 103,
-      "name": "Hedging of Financial Derivative - A quant Project",
-      "description": "A Hedging is a market neutral trading strategy enabling traders to profit from virtually any market conditions: uptrend, downtrend, or sideways movement. This strategy is categorized as a statistical arbitrage and convergence trading strategy.",
-      "mentor": {
-          "id": 80,
-          "created_at": "2023-11-27 16:39:01.008447+00",
-          "updated_at": "2023-11-27 16:39:01.008447+00",
-          "deleted_at": null,
-          "name": "Akshat Sharma",
-          "username": "Akshat111111"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/mdUPbPkv",
-      "repo_link": "https://github.com/Akshat111111/Hedging-of-Financial-Derivatives"
-  },
-  {
-      "id": 66,
-      "name": "Scarpe",
-      "description": "Scarpe is a Ruby library for building desktop GUI apps. You can write simple apps with just a few lines of Ruby: \"Shoes.app { button 'OK' }\" is a whole app! Our project has had Google Summer of Code interns, and we'd love to have you help too!",
-      "mentor": {
-          "id": 29,
-          "created_at": "2023-11-17 13:24:07.060483+00",
-          "updated_at": "2023-11-17 21:28:57.38036+00",
-          "deleted_at": null,
-          "name": "Noah Gibbs",
-          "username": "noahgibbs"
-      },
-      "secondary_mentor": {
-          "id": 16,
-          "created_at": "2023-11-15 03:40:11.081999+00",
-          "updated_at": "2023-11-25 12:50:18.13955+00",
-          "deleted_at": null,
-          "name": "Pavan",
-          "username": "gintama91"
-      },
-      "comm_channel": "https://discord.gg/6UAhvnVUJz",
-      "repo_link": "https://github.com/scarpe-team/scarpe"
-  },
-  {
-      "id": 108,
-      "name": "Jobs Scraper",
-      "description": "The Jobs Scraper is a powerful Go application designed for scraping job postings from a variety of websites and storing them in an SQLite database. Additionally, it offers endpoints for retrieving and synchronizing job postings, making it a valuable tool for job seekers and developers alike.",
-      "mentor": {
-          "id": 87,
-          "created_at": "2023-11-28 17:32:03.599418+00",
-          "updated_at": "2023-11-28 17:32:03.599418+00",
-          "deleted_at": null,
-          "name": "Mabud Alam",
-          "username": "Pavel401"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://join.slack.com/t/jobsscraper-kwoc/shared_invite/zt-27w39gvw3-K23d7nPLTYZyw2fYdoVutg",
-      "repo_link": "https://github.com/Pavel401/Jobs-Scraper"
-  },
-  {
-      "id": 116,
-      "name": "AR Webstore",
-      "description": "Webstore built to showcase photorealistic 3D digital objects in AR",
-      "mentor": {
-          "id": 95,
-          "created_at": "2023-12-01 13:34:39.146045+00",
-          "updated_at": "2023-12-01 13:34:39.146045+00",
-          "deleted_at": null,
-          "name": "Shwet Khatri",
-          "username": "ShwetKhatri2001"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/mZNx9aQT",
-      "repo_link": "https://github.com/ShwetKhatri2001/AR-Webstore"
-  },
-  {
-      "id": 137,
-      "name": "ML-ProjectKart",
-      "description": "ML ProjectKart showcases the finest collection of all projects based on machine learning, deep learning and other AI topics for data science enthusiasts.",
-      "mentor": {
-          "id": 31,
-          "created_at": "2023-11-17 16:08:09.729348+00",
-          "updated_at": "2023-11-17 16:08:09.729348+00",
-          "deleted_at": null,
-          "name": "Prathima Kadari",
-          "username": "prathimacode-hub"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.com/invite/7Xhrsas4",
-      "repo_link": "https://github.com/prathimacode-hub/ML-ProjectKart"
-  },
-  {
-      "id": 75,
-      "name": "ezmail",
-      "description": "An open-source user-friendly Web application with 50+ pre-designed easily customisable email templates for effective communication",
-      "mentor": {
-          "id": 41,
-          "created_at": "2023-11-21 05:54:03.62923+00",
-          "updated_at": "2023-11-21 05:54:03.62923+00",
-          "deleted_at": null,
-          "name": "Ishaan Adarsh",
-          "username": "IshaanAdarsh"
-      },
-      "secondary_mentor": {
-          "id": 43,
-          "created_at": "2023-11-21 05:59:02.862805+00",
-          "updated_at": "2023-11-21 05:59:02.862805+00",
-          "deleted_at": null,
-          "name": "Abhinav Srinivas",
-          "username": "nown1ne"
-      },
-      "comm_channel": "https://discord.gg/uVzvpY38",
-      "repo_link": "https://github.com/IshaanAdarsh/ezmail"
-  },
-  {
-      "id": 104,
-      "name": "Python Projects",
-      "description": "A collection of python codes",
-      "mentor": {
-          "id": 37,
-          "created_at": "2023-11-19 16:35:55.611843+00",
-          "updated_at": "2023-11-19 16:35:55.611843+00",
-          "deleted_at": null,
-          "name": "Shreyansh Khaitan",
-          "username": "shrey141102"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/dqCG4pVyXf",
-      "repo_link": "https://github.com/shrey141102/PythonProjects"
-  },
-  {
-      "id": 88,
-      "name": "Javascript Projects",
-      "description": "A collection of short and fun projects made using HTML, CSS and JS.",
-      "mentor": {
-          "id": 37,
-          "created_at": "2023-11-19 16:35:55.611843+00",
-          "updated_at": "2023-11-19 16:35:55.611843+00",
-          "deleted_at": null,
-          "name": "Shreyansh Khaitan",
-          "username": "shrey141102"
-      },
-      "secondary_mentor": {
-          "id": 0,
-          "created_at": "0001-01-01T00:00:00Z",
-          "updated_at": "0001-01-01T00:00:00Z",
-          "deleted_at": null,
-          "name": "",
-          "username": ""
-      },
-      "comm_channel": "https://discord.gg/dqCG4pVyXf",
-      "repo_link": "https://github.com/shrey141102/Javascript-projects"
+    "id": 109,
+    "name": "VigyBag",
+    "description": "vigyBag is an Ecommerce website which is help to buy product near to shop - Location based shopping solution",
+    "mentor": {
+      "name": "Vivek Prajapati",
+      "username": "codervivek5"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/pkzWGuBY",
+    "repo_link": "https://github.com/codervivek5/vigyBag/"
+  },
+  {
+    "id": 95,
+    "name": "Vlab Solutions ",
+    "description": "This project is a web application designed to assist colleges and students in managing their assignment works and conducting tests online. The platform is built using React for the frontend and Node.js with Express.js for the backend. MongoDB serves as the database to store essential information.",
+    "mentor": {
+      "name": "Nazim Qureshi",
+      "username": "officialarmannqureshi"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/yM2y9Tmk",
+    "repo_link": "https://github.com/officialarmannqureshi/vlabsolutions"
+  },
+  {
+    "id": 80,
+    "name": "Drive_BOX",
+    "description": "Drive-BOX is a collaborative platform where users can log in, upload their projects, and collaborate with others. The project is hosted on a web hosting website named \"railway,\" making it accessible to users worldwide. Its functionality is similar to that of GitHub, providing a user-friendly interface for uploading and managing projects.",
+    "mentor": {
+      "name": "Pratyush Nagpal",
+      "username": "pratt0007"
+    },
+    "secondary_mentor": {
+      "name": "IshaanAdarsh",
+      "username": "IshaanAdarsh"
+    },
+    "comm_channel": "https://discord.gg/84NZ5bgz",
+    "repo_link": "https://github.com/pratt0007/Drive_BOX"
+  },
+  {
+    "id": 135,
+    "name": "MetaKGP Wiki",
+    "description": "The containerized source code for the MetaKGP community wiki, built with MediaWiki.",
+    "mentor": {
+      "name": "Harsh Khandeparkar",
+      "username": "harshkhandeparkar"
+    },
+    "secondary_mentor": {
+      "name": "rajivharlalka",
+      "username": "rajivharlalka"
+    },
+    "comm_channel": "https://slack.metakgp.org/",
+    "repo_link": "https://github.com/metakgp/metakgp-wiki"
+  },
+  {
+    "id": 45,
+    "name": "Devlabs",
+    "description": " Devlabs is an application that is used to search for free tools that are both free and helpful for our needs. It is built by the amazing open-source community",
+    "mentor": {
+      "name": "Himanshu Narware",
+      "username": "HimanshuNarware"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/4NyeYC2n4j",
+    "repo_link": "https://github.com/HimanshuNarware/Devlabs"
+  },
+  {
+    "id": 44,
+    "name": "Expiration Date Tracker",
+    "description": "WasteNot is a web application designed to help users keep track of their food items, manage expiration dates, and make informed grocery decisions. The app includes features such as user authentication, food item addition through various methods (receipt, photo, barcode), and timely reminders about expiring items.",
+    "mentor": {
+      "name": "Ikshita Agarwal",
+      "username": "ishuonly"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://github.com/ishuonly/ExpirationDateTracker/discussions",
+    "repo_link": "https://github.com/ishuonly/ExpirationDateTracker"
+  },
+  {
+    "id": 93,
+    "name": "MineDroid",
+    "description": "Chatbot to respond to text queries pertaining to various Acts, Rules, and Regulations applicable to Mining industries",
+    "mentor": {
+      "name": "Satyam Rathi",
+      "username": "satyamrathirar"
+    },
+    "secondary_mentor": {
+      "name": "ciaokitty",
+      "username": "ciaokitty"
+    },
+    "comm_channel": "https://discord.gg/arH3tRhVTq",
+    "repo_link": "https://github.com/SohamKukreti/MineDroid"
+  },
+  {
+    "id": 94,
+    "name": "Resonate",
+    "description": "An Open Source Social Voice Platform - Flutter Application",
+    "mentor": {
+      "name": "Chandan Gowda",
+      "username": "chandansgowda"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/HKnHDW4xTG",
+    "repo_link": "https://github.com/AOSSIE-Org/Resonate"
+  },
+  {
+    "id": 106,
+    "name": "TeachGPT",
+    "description": "TeachGPT is a open-source initiative focused on developing an AI-Powered Virtual Tutor. This innovative virtual tutor leverages the full potential of artificial intelligence to revolutionize the way we learn. The primary objective is to construct a Large Language Model(LLM) that dynamically adjusts to individual learning styles while delivering lifelike conversations through AI agents. This is complemented by seamless integration of speech recognition technology and the strategic incorporation of gamification methods .",
+    "mentor": {
+      "name": "Priyadharshini ",
+      "username": "Priyamakeshwari"
+    },
+    "secondary_mentor": {
+      "name": "neokd",
+      "username": "neokd"
+    },
+    "comm_channel": "https://discord.gg/hEr97zTPtN",
+    "repo_link": "https://github.com/Priyamakeshwari/TeachGPT"
+  },
+  {
+    "id": 3,
+    "name": "Chillzone",
+    "description": "Find a place to chill during class hours in IIT KGP",
+    "mentor": {
+      "name": "Chirag Ghosh",
+      "username": "chirag-ghosh"
+    },
+    "secondary_mentor": {
+      "name": "rajivharlalka",
+      "username": "rajivharlalka"
+    },
+    "comm_channel": "https://slack.metakgp.org",
+    "repo_link": "https://github.com/metakgp/chillzone"
+  },
+  {
+    "id": 136,
+    "name": "DoodleCollab",
+    "description": "Dynamic web application designed for seamless collaboration on mockup drawings. Whether you're sketching wireframes, designing user interfaces, or brainstorming ideas visually, it provides an intuitive platform where users can create, share, and collaborate in real-time.",
+    "mentor": {
+      "name": "Jyotirmoy Roy",
+      "username": "ItsRoy69"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/VWHHr7ZqZR",
+    "repo_link": "https://github.com/WikiPortal/DoodleCollab"
+  },
+  {
+    "id": 122,
+    "name": "Linkscrape",
+    "description": "LinkScrape is a dynamic application designed to extract and collect essential links from specific websites. It operates by traversing through the pages of a designated site, meticulously capturing the names of embedded links along with their respective addresses. All you have to do is enter the link address in the placeholder and click on scrape. All the embedded links of that particular website is list down in the form of table with their names. Repeat the same process make sure to delete the previous history before considering another URL's.  Future implementation includes Content based Filtering UI/UX enhancement, AI driven tags, File extraction in CSV, JSON, Adding geolocation ,Analytical Dashboard",
+    "mentor": {
+      "name": "Shreya Nalawade",
+      "username": "Shreya111111"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/channels/1134784875900186624/1134784876491575401",
+    "repo_link": "https://github.com/Shreya111111/Linkscrape"
+  },
+  {
+    "id": 113,
+    "name": "Zoo",
+    "description": "ZOO(for  Hostelers )- A Svelte-based project to streamline hostel management and student life.  Key Features:  Efficient room allocation system Mess management and feedback portal Maintenance request tracking Event calendar and visitor management",
+    "mentor": {
+      "name": "Aman Deep",
+      "username": "1palermo"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/vd52kgC77J",
+    "repo_link": "https://github.com/1palermo/Zoo"
+  },
+  {
+    "id": 76,
+    "name": "NOSC Website",
+    "description": "We are the NIT Raipur Open Source Community (NOSC), a passionate group of individuals dedicated to the world of open source software. Our mission is to foster a culture of collaboration, learning, and innovation through open source projects and initiatives.  At NOSC, we believe in the power of open source to drive positive change, and we welcome contributors from all backgrounds and skill levels to join us in our journey.",
+    "mentor": {
+      "name": "Abhinav Srinivas",
+      "username": "nown1ne"
+    },
+    "secondary_mentor": {
+      "name": "IshaanAdarsh",
+      "username": "IshaanAdarsh"
+    },
+    "comm_channel": "https://discord.gg/s8pgtxNd7Z",
+    "repo_link": "https://github.com/NITRR-Open-Source-Community/NOSC-Website"
+  },
+  {
+    "id": 117,
+    "name": "GameSphere",
+    "description": "Our primary goal is to create a website where two or more friends can gather and play games online (such as multiplayer) without having to download any software or tools to their computers or mobile devices.",
+    "mentor": {
+      "name": "Durgesh kumar prajapati",
+      "username": "Durgesh4993"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/65eUXc7NNc",
+    "repo_link": "https://github.com/Durgesh4993/GameSphere3.0"
+  },
+  {
+    "id": 133,
+    "name": "Swetify-Music",
+    "description": "Welcome to Swetify-Music where you are going to groove on your favourite songs",
+    "mentor": {
+      "name": "Shwet Khatri",
+      "username": "ShwetKhatri2001"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/mZNx9aQT",
+    "repo_link": "https://github.com/ShwetKhatri2001/Swetify-Music"
+  },
+  {
+    "id": 91,
+    "name": "Face-X",
+    "description": "Demonstration of different algorithms and operations on faces.",
+    "mentor": {
+      "name": "AKSHITA GUPTA",
+      "username": "akshitagupta15june"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/Jmc97prqjb",
+    "repo_link": "https://github.com/akshitagupta15june/Face-X"
+  },
+  {
+    "id": 69,
+    "name": "Get Your Freaking Electives",
+    "description": "A simple script to find the depth and breadth electives available for you for subject registration",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://slack.metakgp.org",
+    "repo_link": "https://github.com/metakgp/gyfe"
+  },
+  {
+    "id": 114,
+    "name": "Dify",
+    "description": "Easily build and operate generative AI applications. Create Assistants API and GPTs based on any LLMs.",
+    "mentor": {
+      "name": "Chanchal Kuntal",
+      "username": "Chanchal-D"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/channels/@me",
+    "repo_link": "https://github.com/Chanchal-D/Dify"
+  },
+  {
+    "id": 64,
+    "name": "Mailing Scripts",
+    "description": "Scripts for automation of mailing process for various affairs under KOSS",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/kossiitkgp/mailing-scripts"
+  },
+  {
+    "id": 134,
+    "name": "SwiftWave",
+    "description": "SwiftWave is a self-hosted lightweight PaaS solution to deploy and manage your applications on any VPS without any hassle 👀",
+    "mentor": {
+      "name": "Tanmoy Sarkar",
+      "username": "tanmoysrt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/swiftwave-team/shared_invite/zt-21n86aslx-aAvBi3hv1GigVA_XoXiu4Q",
+    "repo_link": "https://github.com/swiftwave-org/swiftwave"
+  },
+  {
+    "id": 119,
+    "name": "Grabtern-frontend",
+    "description": "This is a part of a bigger project [Grabtern].. containing several microservice. This [ grabtern-frontend] is a frontend part of the project.",
+    "mentor": {
+      "name": "Anmol Agrawal",
+      "username": "anmode"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/8ccqParF",
+    "repo_link": "https://github.com/anmode/grabtern-frontend"
+  },
+  {
+    "id": 59,
+    "name": "Code Runner",
+    "description": "Implementation of code-runner in bash for compiling code files and executing them with one and only command",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/proffapt/code-runner"
+  },
+  {
+    "id": 90,
+    "name": "Moksh",
+    "description": "Unlock your potential and achieve true balance in life with Moksh",
+    "mentor": {
+      "name": "AKSHITA GUPTA",
+      "username": "akshitagupta15june"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/Jmc97prqjb",
+    "repo_link": "https://github.com/akshitagupta15june/Moksh"
+  },
+  {
+    "id": 65,
+    "name": "PGWeb Testing Harness",
+    "description": "This tool is being used to test the official website of PostgreSQL. Some functionalities like storing reports to create an archive are left. You can go through the issues to help out with this project. You only need to know python for this project and experience with Selenium will be an added plus.",
+    "mentor": {
+      "name": "Akshat Jaimini",
+      "username": "destrex271"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "",
+    "repo_link": "https://github.com/destrex271/pgweb-testing-harness"
+  },
+  {
+    "id": 132,
+    "name": "Weather app",
+    "description": "Provides weather details of different locations ",
+    "mentor": {
+      "name": "EPSA",
+      "username": "ePSA-eJya"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/qNwWEbfP",
+    "repo_link": "https://github.com/ePSA-eJya/Temp-app.git"
+  },
+  {
+    "id": 81,
+    "name": "DLTA-AI",
+    "description": "DLTA-AI is the next generation of annotation tools, integrating the power of Computer Vision SOTA models to Labelme in a seamless expirence and intuitive workflow to make creating image datasets easier than ever before",
+    "mentor": {
+      "name": "0ssamaak0",
+      "username": "0ssamaak0"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/xB5eCBwm",
+    "repo_link": "https://github.com/0ssamaak0/DLTA-AI"
+  },
+  {
+    "id": 79,
+    "name": "Omilia",
+    "description": "Omilia is a retro-themed game inspired from platformer games popular in the 90s with an added feature which makes it an educational game.This feature involves a set of questions in different languages which are asked after the player completes each level. TO move to the next level the player must give the right answer.",
+    "mentor": {
+      "name": "Yuvraj Rathi",
+      "username": "yryuvraj"
+    },
+    "secondary_mentor": {
+      "name": "SohamKukreti",
+      "username": "SohamKukreti"
+    },
+    "comm_channel": "https://discord.gg/KNm9jFTgwK",
+    "repo_link": "https://github.com/SohamKukreti/omilia"
+  },
+  {
+    "id": 83,
+    "name": "CalcDiverse",
+    "description": "CalcDiverse is a customized collection of calculators for various aspects of mathematics. Individuals with basic web development knowledge can create distinctive calculators and submit pull requests.",
+    "mentor": {
+      "name": "Rakesh Roshan",
+      "username": "Rakesh9100"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/ZJvjd986",
+    "repo_link": "https://github.com/Rakesh9100/CalcDiverse"
+  },
+  {
+    "id": 86,
+    "name": "CDS | Official Website",
+    "description": "Official website for CodeDeployingSquad - The largest community of tomorrows open source developers",
+    "mentor": {
+      "name": "Gopal Verma",
+      "username": "GopalVerma1303"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/8SFAywV4M8",
+    "repo_link": "https://github.com/CodeDeployingSquad/website"
+  },
+  {
+    "id": 49,
+    "name": "community-website",
+    "description": "A website aims to provide the students with information about all the tech opportunities.",
+    "mentor": {
+      "name": "Kajol Kumari",
+      "username": "Kajol-Kumari"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/hitkteckcommunity/shared_invite/zt-1lols7wdz-rtCFQYBUxlHltJXp3M8bYg",
+    "repo_link": "https://github.com/HITK-TECH-Community/Community-Website"
+  },
+  {
+    "id": 42,
+    "name": "Get Your Freaking Timetable",
+    "description": "Gets your timetable from ERP and adds it to your Google Calendar or gives you an ICS file which you can add in any common calendar application.",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "rajivharlalka",
+      "username": "rajivharlalka"
+    },
+    "comm_channel": "https://slack.metakgp.org",
+    "repo_link": "https://github.com/metakgp/gyft"
+  },
+  {
+    "id": 54,
+    "name": "Blog Website ",
+    "description": "This is a blog website where user can compose their blogs. The blogs are saved in database.",
+    "mentor": {
+      "name": "Kritika Gupta",
+      "username": "Kritika30032002"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/k2uuqYN6Ga",
+    "repo_link": "https://github.com/Kritika30032002/Blog_Website"
+  },
+  {
+    "id": 67,
+    "name": "Road Lane Detection System",
+    "description": "The main code initializes the video capture object using the provided video file path. It creates a named window \"Lane Detector\" and adds two trackbars for adjusting the Canny edge detection thresholds. The script then proceeds to process each frame of the video:",
+    "mentor": {
+      "name": "Lakshit Bakshi",
+      "username": "elle-Bee"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://t.me/+__4-ipvNiw0yNTY1",
+    "repo_link": "https://github.com/elle-Bee/Road-Lane-Detection-System"
+  },
+  {
+    "id": 123,
+    "name": "Spendwise",
+    "description": "Spendwise: Your intuitive, user-friendly expense tracker. Seamlessly manage and understand your finances with simplicity and precision. Track, analyze, and take control of your expenses effortlessly.",
+    "mentor": {
+      "name": "Ankit Kr Chowdhury",
+      "username": "ani1609"
+    },
+    "secondary_mentor": {
+      "name": "niladrix719",
+      "username": "niladrix719"
+    },
+    "comm_channel": "https://join.slack.com/t/spendwisegroup/shared_invite/zt-28g7vaeb4-ZZbfrM8cpb6j~EEoWvWR2A",
+    "repo_link": "https://github.com/ani1609/Spendwise"
+  },
+  {
+    "id": 72,
+    "name": "KWoC Frontend",
+    "description": "The open-source frontend for Kharagpur Winter of Code written in React, Typescript, and TailwindCSS.",
+    "mentor": {
+      "name": "Harsh Khandeparkar",
+      "username": "harshkhandeparkar"
+    },
+    "secondary_mentor": {
+      "name": "Nafisay",
+      "username": "Nafisay"
+    },
+    "comm_channel": "https://discord.gg/efFwh6fnjk",
+    "repo_link": "https://github.com/kossiitkgp/KWoC-Frontend"
+  },
+  {
+    "id": 60,
+    "name": "Own-Youtube",
+    "description": "An extension to modify YouTube's layout in real-time, like you own it!",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/proffapt/own-youtube"
+  },
+  {
+    "id": 92,
+    "name": "PetMe",
+    "description": "PetMe is an all-in-one platform that allows animals to be adopted, donated to pet lovers, and provides emergency medical care to stray animals in need.",
+    "mentor": {
+      "name": "AKSHITA GUPTA",
+      "username": "akshitagupta15june"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/Jmc97prqjb",
+    "repo_link": "https://github.com/akshitagupta15june/PetMe"
+  },
+  {
+    "id": 74,
+    "name": "Asteroyd",
+    "description": "A robust & smart code snippet management tool",
+    "mentor": {
+      "name": "Ujjwal Raj",
+      "username": "ujjwall-R"
+    },
+    "secondary_mentor": {
+      "name": "grimreaperLinux",
+      "username": "grimreaperLinux"
+    },
+    "comm_channel": "https://join.slack.com/t/asteroyd/shared_invite/zt-26k1w6ues-jNKsNiftwLRzbXtdmbBnEQ",
+    "repo_link": "https://github.com/ujjwall-R/Asteroyd"
+  },
+  {
+    "id": 77,
+    "name": "Journal Paper Reader - Chrome Extension",
+    "description": "A chrome extension to make the reading process of journal paper easier by showcasing methods, references and figures beside the text by highlighting",
+    "mentor": {
+      "name": "ragh qqqqra",
+      "username": "rakaar"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://groups.google.com/u/1/g/easy-paper-reader---kwoc-group",
+    "repo_link": "https://github.com/rakaar/easy-reader-extension"
+  },
+  {
+    "id": 82,
+    "name": "Beautiify",
+    "description": "Beautiify comprises a curated selection of beautifully designed components and animations that can be seamlessly incorporated into any website, elevating its overall UI experience.",
+    "mentor": {
+      "name": "Rakesh Roshan",
+      "username": "Rakesh9100"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/thH8mECe",
+    "repo_link": "https://github.com/Rakesh9100/Beautiify"
+  },
+  {
+    "id": 55,
+    "name": " To Do List Application",
+    "description": "This is a Simple To Do List Application",
+    "mentor": {
+      "name": "Kritika Gupta",
+      "username": "Kritika30032002"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/qqvmzNZWRQ",
+    "repo_link": "https://github.com/Kritika30032002/To-Do-List-Application"
+  },
+  {
+    "id": 100,
+    "name": "Beat Bridge",
+    "description": "This Web App is a dedicated application that'll use Spotify API to Fetch Songs and play 'em in the interactive GUI. It Utilizes Spotify API to fetch songs and an interactive GUI for is there for playing music with a  recommendation Engine for suggesting songs.",
+    "mentor": {
+      "name": "Pooranjoy Bhattacharya",
+      "username": "pooranjoyb"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/PHRnze3W87",
+    "repo_link": "https://github.com/pooranjoyb/BeatBridge"
+  },
+  {
+    "id": 78,
+    "name": "ScrapeIt",
+    "description": "ScrapeIt is a web scraping application built with ReactJS and TailwindCSS. It enables the extraction of HTML content or text from web pages by providing a URL.",
+    "mentor": {
+      "name": "Shubham Singodiya",
+      "username": "singodiyashubham87"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/uVgtxfyK",
+    "repo_link": "https://github.com/singodiyashubham87/ScrapeIt"
+  },
+  {
+    "id": 97,
+    "name": "Wife Predictor",
+    "description": "This is a fun project that predicts your wife. The web app has been deployed on Netlify.",
+    "mentor": {
+      "name": "Shubham Singh",
+      "username": "1Shubham7"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discordapp.com/users/1061183828925894696",
+    "repo_link": "https://github.com/1Shubham7/Wife-Predictor-v2"
+  },
+  {
+    "id": 98,
+    "name": "Mission Health",
+    "description": "Converting fat ugly bitches to slim, beautiful, god fearing compassionate divas",
+    "mentor": {
+      "name": "Shubham Singh",
+      "username": "1Shubham7"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discordapp.com/users/1061183828925894696",
+    "repo_link": "https://github.com/1Shubham7/Calory-tracker-v2"
+  },
+  {
+    "id": 96,
+    "name": "Blogzen",
+    "description": "A collection of resources categorised by tech domains, languages, expertise and much more. Blogzen gives you a quick access to all the resources that you could need at a single place, with a click!",
+    "mentor": {
+      "name": "piyush gupta",
+      "username": "piug-07"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://www.discord.gg/#1545",
+    "repo_link": "https://github.com/piug-07/blogzen-main"
+  },
+  {
+    "id": 130,
+    "name": "Mocker",
+    "description": "Mocker can generate mock data with API endpoints, powered by faker.js",
+    "mentor": {
+      "name": "Shelcia",
+      "username": "shelcia"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/Y78J76eNt6",
+    "repo_link": "https://github.com/shelcia/mocker"
+  },
+  {
+    "id": 73,
+    "name": "KWoC Backend",
+    "description": "The backend API for Kharagpur Winter of Code written in Go.",
+    "mentor": {
+      "name": "Harsh Khandeparkar",
+      "username": "harshkhandeparkar"
+    },
+    "secondary_mentor": {
+      "name": "rajivharlalka",
+      "username": "rajivharlalka"
+    },
+    "comm_channel": "https://discord.gg/efFwh6fnjk",
+    "repo_link": "https://github.com/kossiitkgp/KWoC-Backend"
+  },
+  {
+    "id": 127,
+    "name": "Cyber Sentinel",
+    "description": "A vulnerable webapp to make developers aware on how vulnerabilities are exploited in the wild",
+    "mentor": {
+      "name": "Suchit",
+      "username": "SuchitReddi"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/opensrccybersentinel/shared_invite/zt-28f973fci-7ObrO7JK8jE7FNG3qDiLvQ",
+    "repo_link": "https://github.com/SuchitReddi/cybersentinel"
+  },
+  {
+    "id": 131,
+    "name": "Notes Application",
+    "description": "Welcome to our Notes Application – your go-to platform for streamlined note-taking! Crafted with Next.js and powered by Firebase, this application seamlessly combines efficiency and simplicity. Take organized notes, access them anytime, anywhere, and elevate your productivity. Your thoughts, our platform – the perfect harmony for a clutter-free note-taking experience.",
+    "mentor": {
+      "name": "Rohan Wandre",
+      "username": "rohan9024"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/YwqHqCyPWy",
+    "repo_link": "https://github.com/rohan9024/notes"
+  },
+  {
+    "id": 57,
+    "name": "Top Secrets",
+    "description": "This is a website that allows user to add their secrets anonymously to the website. Thus makes its interesting. One can add their secrets that they don't want to share with anyone.",
+    "mentor": {
+      "name": "Kritika Gupta",
+      "username": "Kritika30032002"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/DcgxHdAWka",
+    "repo_link": "https://github.com/Kritika30032002/Top_Secrets"
+  },
+  {
+    "id": 107,
+    "name": "Code Buddy",
+    "description": "Code Buddy is a platform designed to help developers and programmers find suitable coding partners for collaboration on various projects. Whether you're working on personal projects, open-source contributions, or simply seeking someone to learn and code together, Code Buddy is here to facilitate connections between like-minded individuals.",
+    "mentor": {
+      "name": "Shubham Singh",
+      "username": "1Shubham7"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discordapp.com/users/1061183828925894696",
+    "repo_link": "https://github.com/1Shubham7/code-buddy"
+  },
+  {
+    "id": 50,
+    "name": "Whiteboard App for Rocket.Chat (GSoC'23)",
+    "description": "Enhance your collaborative experience with diagrams, drawings, and more using Whiteboard Integration in Rocket.Chat. Whiteboard App provides a seamless environment for real-time visual communication and brainstorming.",
+    "mentor": {
+      "name": "Vinayak Sharma",
+      "username": "CulturalProfessor"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://open.rocket.chat/channel/white-board-integration-team",
+    "repo_link": "https://github.com/RocketChat/Apps.Whiteboard"
+  },
+  {
+    "id": 121,
+    "name": "Memory Wipe",
+    "description": "A storage wiper targeting IoT devices and SSDs",
+    "mentor": {
+      "name": "Suchit",
+      "username": "SuchitReddi"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/opensrcmemorywipe/shared_invite/zt-28olrjb9t-0k61qROOR8SHwBdbUZLf5g",
+    "repo_link": "https://github.com/SuchitReddi/memorywipe"
+  },
+  {
+    "id": 101,
+    "name": "ML-Crate",
+    "description": "ML Crate stands as the ultimate hub for a multitude of exciting ML projects, serving as the go-to resource haven for passionate and dedicated ML enthusiasts! ",
+    "mentor": {
+      "name": "Abhishek Sharma",
+      "username": "abhisheks008"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/eGaV2tzBhx",
+    "repo_link": "https://github.com/abhisheks008/ML-Crate"
+  },
+  {
+    "id": 112,
+    "name": "digitomize",
+    "description": "Digitomize, part of Microsoft for Startups Founders Hub, is an open-source platform that combines two main sections: Contests and User Profiles. It allows users to explore upcoming coding contests and dynamically create developer portfolios.",
+    "mentor": {
+      "name": "Pranshu Gupta",
+      "username": "pranshugupta54"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://digitomize.com/discord",
+    "repo_link": "https://github.com/digitomize/digitomize"
+  },
+  {
+    "id": 99,
+    "name": "chrome-extensions",
+    "description": "This repository hosts a collection of Chrome extensions designed for diverse purposes. Each extension has its own folder within this repository, with some already developed and others awaiting creation.",
+    "mentor": {
+      "name": "nikunj",
+      "username": "nik132-eng"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/xPM9Syrk",
+    "repo_link": "https://github.com/nik132-eng/chrome-extensions"
+  },
+  {
+    "id": 102,
+    "name": "METAVERSE",
+    "description": "🚀 Welcome to our GitHub repository, officially accepted for Codepeak '23   👾 & KWOC 2023! Explore a dynamic collection of front-end projects, powered by HTML, CSS, JavaScript, and React. Join our community to contribute your creations 🎨, add features 🛠️, or squash bugs 🐛 in existing projects. ",
+    "mentor": {
+      "name": "Arpan Chowdhury",
+      "username": "apu52"
+    },
+    "secondary_mentor": {
+      "name": "5h0ov",
+      "username": "5h0ov"
+    },
+    "comm_channel": "https://discord.gg/xZcnDRtq",
+    "repo_link": "https://github.com/apu52/METAVERSE"
+  },
+  {
+    "id": 56,
+    "name": "React Creations",
+    "description": "Welcome to our open-source React Creations. Join us in building, improving, and innovating together in the world of React development!",
+    "mentor": {
+      "name": "Kritika Gupta",
+      "username": "Kritika30032002"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/4dtqXcfeKM",
+    "repo_link": "https://github.com/Kritika30032002/ReactCreations"
+  },
+  {
+    "id": 115,
+    "name": "NFT-MANIA",
+    "description": "Transforming gaming with NFTs: Our platform lets gamers buy and sell unique play cards while maintaining trust and authenticity. Also including blockchain bridge for import and export of nft's including 3d model, tokens, play cards, digital marketing and also use open ai for the generation of metabase.",
+    "mentor": {
+      "name": "Chanchal Kuntal",
+      "username": "Chanchal-D"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/channels/@me",
+    "repo_link": "https://github.com/Chanchal-D/NFT-MANIA"
+  },
+  {
+    "id": 118,
+    "name": "Project_Hunt",
+    "description": " Project_Hunt is an open-source collection of React components, web-based games, and web development tools and components. It's designed to be a valuable resource for web developers.",
+    "mentor": {
+      "name": "Himanshu Narware",
+      "username": "HimanshuNarware"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/K786TS3EdS",
+    "repo_link": "https://github.com/HimanshuNarware/Project_Hunt"
+  },
+  {
+    "id": 120,
+    "name": "Semantic PDFs search",
+    "description": "Terminal App to search semantically in a folder of PDFs",
+    "mentor": {
+      "name": "ragh qqqqra",
+      "username": "rakaar"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://groups.google.com/u/1/g/semantic-pdfs-search---kwoc",
+    "repo_link": "https://github.com/rakaar/semantic-search-in-a-pdfs-folder"
+  },
+  {
+    "id": 124,
+    "name": "ai-economy-simulator",
+    "description": "Can we simulate macroeconomic factors using microeconomy of individual ventures?  If AI is too smart now, can it do this?",
+    "mentor": {
+      "name": "Amish Mittal",
+      "username": "fliptrail"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/aZzhkzHTVr",
+    "repo_link": "https://github.com/ai-economy-simulator/ecosim-client"
+  },
+  {
+    "id": 125,
+    "name": "Photo-Editor",
+    "description": "This photo editing application is one of those elegantly powerful PHP project ideas that blend JavaScript and PHP to produce a web app for users to create beautiful digital artwork. This PHP project also forces you to use object-oriented programming, which is a great way to hone these skills.",
+    "mentor": {
+      "name": "Durgesh kumar prajapati",
+      "username": "Durgesh4993"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/65eUXc7NNc",
+    "repo_link": "https://github.com/Durgesh4993/Photo-Editor"
+  },
+  {
+    "id": 126,
+    "name": "CryptoX",
+    "description": "Buy & Sell Digital Assets In The CryptoX Coin CryptoX is the easiest, safest, and fastest way to buy & sell crypto asset exchange.",
+    "mentor": {
+      "name": "Durgesh kumar prajapati",
+      "username": "Durgesh4993"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/65eUXc7NNc",
+    "repo_link": "https://github.com/Durgesh4993/CryptoX"
+  },
+  {
+    "id": 129,
+    "name": "Bloggram",
+    "description": "A blog website where users can create their blog, edit, delete and share to other users",
+    "mentor": {
+      "name": "Shelcia",
+      "username": "shelcia"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/Y78J76eNt6",
+    "repo_link": "https://github.com/shelcia/Bloggram"
+  },
+  {
+    "id": 105,
+    "name": "NeoGPT",
+    "description": "Chat effortlessly with Documents, YouTube Videos,Code, and Social Media Chats. Your go-to for quick and smart interactions! 🤖💬",
+    "mentor": {
+      "name": "Kuldeep",
+      "username": "neokd"
+    },
+    "secondary_mentor": {
+      "name": "Priyamakeshwari",
+      "username": "Priyamakeshwari"
+    },
+    "comm_channel": "https://discord.gg/7xU954VYvs",
+    "repo_link": "https://github.com/neokd/NeoGPT"
+  },
+  {
+    "id": 48,
+    "name": "CropSync",
+    "description": "CropSync is a user-friendly website designed to assist farmers in selecting the right crops for their fields and providing essential information throughout the farming process.",
+    "mentor": {
+      "name": "ThatOneKrish",
+      "username": "KrishGaur1354"
+    },
+    "secondary_mentor": {
+      "name": "w-nityammm",
+      "username": "w-nityammm"
+    },
+    "comm_channel": "https://join.slack.com/t/cropsync/shared_invite/zt-27njkuptz-wLOl57rBnVALRPBB4rgJSw",
+    "repo_link": "https://github.com/cropsync/CropSync"
+  },
+  {
+    "id": 58,
+    "name": "MetaHub",
+    "description": "A repository to document PtokaX DC setup at IIT Kharagpur",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/proffapt/Metahub"
+  },
+  {
+    "id": 51,
+    "name": "Dree",
+    "description": "One single package for visualization, debugging, and exploration of folder hierarchies.  Say no to bulky file managers with Dree.",
+    "mentor": {
+      "name": "Ujjwal Raj",
+      "username": "ujjwall-R"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/dreecommunity/shared_invite/zt-27e8ojiy8-dBmfU6LwIe2w6Cx0mi4Maw",
+    "repo_link": "https://github.com/ujjwall-R/Dree"
+  },
+  {
+    "id": 46,
+    "name": "Hive",
+    "description": "Self-hosted Newsletter Archive",
+    "mentor": {
+      "name": "Parth Paradkar",
+      "username": "parth-paradkar"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://wa.link/r1jm77",
+    "repo_link": "https://github.com/parth-paradkar/hive"
+  },
+  {
+    "id": 53,
+    "name": "NoteXplorer-API",
+    "description": "This is an API which scrapes information about upcoming Hackathons and Tech Programs from different websites and enlists them. It is part of a project called NoteX",
+    "mentor": {
+      "name": "Subroto Banerjee",
+      "username": "TeeWrath"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/ZE9GQZ9rff",
+    "repo_link": "https://github.com/TeeWrath/NoteXplorer-API"
+  },
+  {
+    "id": 128,
+    "name": "Dynamic Portfolio",
+    "description": "Dynamic Portfolio helps you create simple websites by just filling out forms.",
+    "mentor": {
+      "name": "Shelcia",
+      "username": "shelcia"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/Y78J76eNt6",
+    "repo_link": "https://github.com/shelcia/dynamic-portfolio"
+  },
+  {
+    "id": 52,
+    "name": "NoteX",
+    "description": "An open source easy-to-use social media application for students to study, share resources, connect with each other, find opportunities and grow. A single platform to cater to all the needs of a student.",
+    "mentor": {
+      "name": "Subroto Banerjee",
+      "username": "TeeWrath"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/ZE9GQZ9rff",
+    "repo_link": "https://github.com/The-NoteX/NoteX"
+  },
+  {
+    "id": 47,
+    "name": "YABin",
+    "description": "Yet another pastebin, simple but feature-rich, along with a CLI client",
+    "mentor": {
+      "name": "Soham Sen",
+      "username": "Yureien"
+    },
+    "secondary_mentor": {
+      "name": "proffapt",
+      "username": "proffapt"
+    },
+    "comm_channel": "https://discord.gg/FW2hmXPx3H",
+    "repo_link": "https://github.com/Yureien/YABin"
+  },
+  {
+    "id": 61,
+    "name": "fERP",
+    "description": "Stands for Feedback-ERP. Automation extension for IIT KGP ERP feedback",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/proffapt/fERP"
+  },
+  {
+    "id": 62,
+    "name": "IITKGP ERP Login",
+    "description": "he only python package you will ever need to implement login process in ERP for IIT-KGP",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/proffapt/iitkgp-erp-login-pypi"
+  },
+  {
+    "id": 63,
+    "name": "MFTP",
+    "description": "CDC noticeboard at your mail inbox.",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/kwoc-proffapt/shared_invite/zt-270xklnwn-CjkBGJrJvvV2KgdW_~s7EA",
+    "repo_link": "https://github.com/metakgp/mftp"
+  },
+  {
+    "id": 68,
+    "name": "IITKGP ERP Login Extension",
+    "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
+    "mentor": {
+      "name": "Arpit Bhardwaj",
+      "username": "proffapt"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://slack.metakgp.org",
+    "repo_link": "https://github.com/metakgp/iitkgp-erp-auto-login"
+  },
+  {
+    "id": 84,
+    "name": "Greeting Time",
+    "description": "A project in C++ which fetch the time from the system and greet the user according to the time fetched.",
+    "mentor": {
+      "name": "Rakesh Roshan",
+      "username": "Rakesh9100"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/YVp7uZMk",
+    "repo_link": "https://github.com/Rakesh9100/Greeting-Time"
+  },
+  {
+    "id": 85,
+    "name": "CDS | DiabOpticAI",
+    "description": "Codes integrating computer vision, quantum computing, and neural networks  to find a curated solution for Diabetic Retinopathy",
+    "mentor": {
+      "name": "Gopal Verma",
+      "username": "GopalVerma1303"
+    },
+    "secondary_mentor": {
+      "name": "mansi104-ai",
+      "username": "mansi104-ai"
+    },
+    "comm_channel": "https://discord.com/invite/8SFAywV4M8",
+    "repo_link": "https://github.com/CodeDeployingSquad/DiabOpticAI"
+  },
+  {
+    "id": 87,
+    "name": "CDS | Official Docs",
+    "description": "Official documentation for the largest community of tomorrow's open source developers",
+    "mentor": {
+      "name": "Gopal Verma",
+      "username": "GopalVerma1303"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/8SFAywV4M8",
+    "repo_link": "https://github.com/CodeDeployingSquad/docs"
+  },
+  {
+    "id": 89,
+    "name": "ML-Image-Alignment",
+    "description": "It aligns the scanned form to the reference form using SIFT (Scale-Invariant Feature Transform) feature matching.",
+    "mentor": {
+      "name": "ThatOneKrish",
+      "username": "KrishGaur1354"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/8RCH5GDM",
+    "repo_link": "https://github.com/KrishGaur1354/ML-Image-Alignment"
+  },
+  {
+    "id": 138,
+    "name": "HCI-BCI-Lab | Dept. of CSE@ IIT Kharagpur",
+    "description": "An open-source frontend project in React+Vite and TailwindCSS. This project is an initiative by Human-Computer Interaction & Brain-Computer Interaction Lab, Department of Computer Science and Engineering, IIT Kharagpur under the approval of Prof. Debasis Samanta.",
+    "mentor": {
+      "name": "Harsh Khasbage",
+      "username": "harshkhasbage77"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/eJAks6C7",
+    "repo_link": "https://github.com/harshkhasbage77/IITKGP-HCI-BCI-Lab-Website"
+  },
+  {
+    "id": 103,
+    "name": "Hedging of Financial Derivative - A quant Project",
+    "description": "A Hedging is a market neutral trading strategy enabling traders to profit from virtually any market conditions: uptrend, downtrend, or sideways movement. This strategy is categorized as a statistical arbitrage and convergence trading strategy.",
+    "mentor": {
+      "name": "Akshat Sharma",
+      "username": "Akshat111111"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/mdUPbPkv",
+    "repo_link": "https://github.com/Akshat111111/Hedging-of-Financial-Derivatives"
+  },
+  {
+    "id": 66,
+    "name": "Scarpe",
+    "description": "Scarpe is a Ruby library for building desktop GUI apps. You can write simple apps with just a few lines of Ruby: \"Shoes.app { button 'OK' }\" is a whole app! Our project has had Google Summer of Code interns, and we'd love to have you help too!",
+    "mentor": {
+      "name": "Noah Gibbs",
+      "username": "noahgibbs"
+    },
+    "secondary_mentor": {
+      "name": "gintama91",
+      "username": "gintama91"
+    },
+    "comm_channel": "https://discord.gg/6UAhvnVUJz",
+    "repo_link": "https://github.com/scarpe-team/scarpe"
+  },
+  {
+    "id": 108,
+    "name": "Jobs Scraper",
+    "description": "The Jobs Scraper is a powerful Go application designed for scraping job postings from a variety of websites and storing them in an SQLite database. Additionally, it offers endpoints for retrieving and synchronizing job postings, making it a valuable tool for job seekers and developers alike.",
+    "mentor": {
+      "name": "Mabud Alam",
+      "username": "Pavel401"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://join.slack.com/t/jobsscraper-kwoc/shared_invite/zt-27w39gvw3-K23d7nPLTYZyw2fYdoVutg",
+    "repo_link": "https://github.com/Pavel401/Jobs-Scraper"
+  },
+  {
+    "id": 116,
+    "name": "AR Webstore",
+    "description": "Webstore built to showcase photorealistic 3D digital objects in AR",
+    "mentor": {
+      "name": "Shwet Khatri",
+      "username": "ShwetKhatri2001"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/mZNx9aQT",
+    "repo_link": "https://github.com/ShwetKhatri2001/AR-Webstore"
+  },
+  {
+    "id": 137,
+    "name": "ML-ProjectKart",
+    "description": "ML ProjectKart showcases the finest collection of all projects based on machine learning, deep learning and other AI topics for data science enthusiasts.",
+    "mentor": {
+      "name": "Prathima Kadari",
+      "username": "prathimacode-hub"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.com/invite/7Xhrsas4",
+    "repo_link": "https://github.com/prathimacode-hub/ML-ProjectKart"
+  },
+  {
+    "id": 75,
+    "name": "ezmail",
+    "description": "An open-source user-friendly Web application with 50+ pre-designed easily customisable email templates for effective communication",
+    "mentor": {
+      "name": "Ishaan Adarsh",
+      "username": "IshaanAdarsh"
+    },
+    "secondary_mentor": {
+      "name": "nown1ne",
+      "username": "nown1ne"
+    },
+    "comm_channel": "https://discord.gg/uVzvpY38",
+    "repo_link": "https://github.com/IshaanAdarsh/ezmail"
+  },
+  {
+    "id": 104,
+    "name": "Python Projects",
+    "description": "A collection of python codes",
+    "mentor": {
+      "name": "Shreyansh Khaitan",
+      "username": "shrey141102"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/dqCG4pVyXf",
+    "repo_link": "https://github.com/shrey141102/PythonProjects"
+  },
+  {
+    "id": 88,
+    "name": "Javascript Projects",
+    "description": "A collection of short and fun projects made using HTML, CSS and JS.",
+    "mentor": {
+      "name": "Shreyansh Khaitan",
+      "username": "shrey141102"
+    },
+    "secondary_mentor": {
+      "name": "",
+      "username": ""
+    },
+    "comm_channel": "https://discord.gg/dqCG4pVyXf",
+    "repo_link": "https://github.com/shrey141102/Javascript-projects"
   }
 ]
