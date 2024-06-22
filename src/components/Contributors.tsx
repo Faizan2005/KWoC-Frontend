@@ -36,18 +36,12 @@ export default function Contributors() {
                   scope="col"
                   className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider"
                 >
-                  Lines Changed
-                </th>
-                <th
-                  scope="col"
-                  className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider"
-                >
                   Blog Link
                 </th>
               </tr>
             </thead>
             <tbody className="bg-black/50 backdrop-blur-sm divide-y divide-gray-700">
-              {Data.map((student, index) => (
+              {Data.sort((a, b) => a.name.localeCompare(b.name)).map((student, index) => (
                 <tr key={index}>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-100">
                     {student.name}
@@ -64,9 +58,6 @@ export default function Contributors() {
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-100">
                     {student.college}
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-100">
-                    {student.lines_changed}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-100">
                     {student.blog_link == "" ? (
