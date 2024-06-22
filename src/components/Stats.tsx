@@ -7,7 +7,7 @@ export default function Stats() {
   const cards = [
     {
       title: "1,393",
-      description: "Contributors",
+      description: "Registrations",
       image: Contributors,
     },
     {
