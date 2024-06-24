@@ -30,12 +30,6 @@ export default function Contributors() {
                   scope="col"
                   className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider"
                 >
-                  College
-                </th>
-                <th
-                  scope="col"
-                  className="px-6 py-3 text-left text-xs font-medium text-gray-100 uppercase tracking-wider"
-                >
                   Blog Link
                 </th>
               </tr>
@@ -55,9 +49,6 @@ export default function Contributors() {
                     >
                       {student.username}
                     </a>
-                  </td>
-                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-100">
-                    {student.college}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-100">
                     {student.blog_link == "" ? (
