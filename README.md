@@ -103,7 +103,7 @@ See also [Contributing Guide](./CONTRIBUTING.md), [Learning Guide](./learn.md).
 
 See also [KWoC Docs](https://github.com/kossiitkgp/docs/blob/master/events/kwoc.md#certificates).
 
-After KWoC ends, the website is archived. The stats data (including the total PRs, total commits, total contributors, and individual stats) is copied and added to the site source.
+After KWoC ends, the website is archived. The stats data (including the total PRs, total commits, total contributors, and individual stats) is extracted from wherever the database is hosted and added to the site source.
 
 The archived source code is committed to a branch named `kwoc-xx-archive` and hosted on `kwocxx.kossiitkgp.org`, where `xx` represents the last two digits of the year. The archive is also hosted on `kwoc.kossiitkgp.org` until the following year's website is deployed.
 

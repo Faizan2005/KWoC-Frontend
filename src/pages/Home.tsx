@@ -9,6 +9,9 @@ import snowflake_particle3 from "../assets/snowflake3.svg";
 import JoinOurCommunity from "../components/JoinOurCommunity";
 import Timeline from "../components/Timeline";
 import Testimonials from "../components/Testimonials";
+import Stats from "../components/Stats";
+import Contributors from "../components/Contributors";
+import StayTuned from "../components/StayTuned";
 import FooterSection from "../components/FooterSection";
 
 const snowflake_images = [
@@ -51,11 +54,14 @@ function Home() {
         <Hero />
       </section>
       <section className="bg-black/60 py-32 clip-path-polygonDesignSmall md:clip-path-polygonDesign">
+        <Stats />
+        <Contributors />
         <About />
         <WhyKWoC />
         <Timeline />
-        <Testimonials />
+        <Testimonials /> 
         <JoinOurCommunity />
+        <StayTuned />
         <FooterSection />
       </section>
     </>

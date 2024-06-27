@@ -29,6 +29,24 @@ function ManualButton() {
 
 function Hero() {
   const [text, setText] = useState("100010101");
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 500); 
+    return () => clearTimeout(timer);
+  }, []);
+
+  const fadeInStyle = {
+    opacity: isVisible ? 1 : 0,
+    transition: "opacity 1s ease-in",
+    textAlign: "right",
+    fontSize: "30px",
+    color: "white",
+    fontWeight: 100,
+    letterSpacing: "0.1px",
+  };
 
   useEffect(() => {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ-abcdefghijklmnopqrstuvwxyz";
@@ -126,7 +144,9 @@ function Hero() {
           }}
         >
           {text}
+          <p style={fadeInStyle}>Archive</p>
         </h1>
+
         <h3 className="justify-center text-center mb-16 font-extrabold leading-none tracking-tight text-[20px] lg:text-[35px] text-white select-none">
           For the love of open source!
         </h3>

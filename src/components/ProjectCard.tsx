@@ -29,7 +29,7 @@ function ProjectCard({
             >
               {name}
             </h3>
-            <div className="flex flex-wrap gap-2.5">
+            {/* <div className="flex flex-wrap gap-2.5">
               {tags
                 .filter((tag) => tag.length > 0)
                 .map((tag) => (
@@ -40,7 +40,7 @@ function ProjectCard({
                     {tag}
                   </button>
                 ))}
-            </div>
+            </div> */}
           </div>
 
           <p className="mb-4" style={{ wordBreak: "break-word" }}>
