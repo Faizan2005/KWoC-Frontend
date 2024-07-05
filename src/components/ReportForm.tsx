@@ -24,7 +24,7 @@ function ReportForm({ currentLink }: { currentLink: string }) {
             update it{" "}
             <Link
               className="hover:underline text-primary-500 hover:text-primary-600"
-              to={authContext.formLink}
+              to={''}
             >
               here
             </Link>{" "}

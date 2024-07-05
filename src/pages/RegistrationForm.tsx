@@ -83,8 +83,7 @@ function RegistrationForm({ isStudent }: { isStudent: boolean }) {
         fields={fields}
         onCancel={() => {
           isRegistering
-            ? authContext.onLogout()
-            : navigate(authContext.dashboardLink);
+            ? authContext.onLogout() : null
         }}
         onSubmit={async (responses) => {
           setError(null);
@@ -110,8 +109,6 @@ function RegistrationForm({ isStudent }: { isStudent: boolean }) {
             else {
               if (isRegistering) {
                 authContext.onRegister({ ...userData, type: userType });
-
-                navigate(authContext.dashboardLink);
               } else {
                 authContext.updateUserData(
                   responses.name,

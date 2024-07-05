@@ -34,10 +34,6 @@ function OAuth() {
             college: auth.college,
           },
         });
-
-        navigate(
-          auth.is_new_user ? authContext.formLink : authContext.dashboardLink,
-        );
       }
     } catch (e) {
       setError("Error connecting to the server. Please try again later.");

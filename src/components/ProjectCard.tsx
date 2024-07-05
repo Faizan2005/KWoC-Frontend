@@ -3,7 +3,6 @@ import { IProject } from "../util/types";
 
 function ProjectCard({
   project,
-  setQuery,
 }: {
   project: IProject;
   setQuery: (query: string) => void;
@@ -11,7 +10,6 @@ function ProjectCard({
   const {
     name,
     description,
-    tags,
     mentor,
     secondary_mentor,
     comm_channel,

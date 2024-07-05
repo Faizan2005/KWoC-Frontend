@@ -38,15 +38,16 @@ function Hero() {
     return () => clearTimeout(timer);
   }, []);
 
-  const fadeInStyle = {
+  const fadeInStyle: React.CSSProperties = {
     opacity: isVisible ? 1 : 0,
     transition: "opacity 1s ease-in",
-    textAlign: "right",
+    textAlign: 'right',
     fontSize: "30px",
     color: "white",
     fontWeight: 100,
     letterSpacing: "0.1px",
   };
+  
 
   useEffect(() => {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ-abcdefghijklmnopqrstuvwxyz";
