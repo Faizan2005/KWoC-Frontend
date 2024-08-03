@@ -2,12 +2,8 @@ import { BiGitCommit, BiGitPullRequest } from "react-icons/bi";
 import { IoPersonSharp } from "react-icons/io5";
 import { useMemo } from "react";
 import { IProjectDashboardInfo } from "../util/types";
-import { ROUTER_PATHS } from "../util/constants";
-import { Link } from "react-router-dom";
-import { useAuthContext } from "../util/auth";
 
 function MentorProjectCard({
-  id,
   name,
   project_status,
   lines_added = 0,
@@ -32,8 +28,6 @@ function MentorProjectCard({
       totalLinesChanged === 0 ? 0 : (lines_removed / totalLinesChanged) * 100,
     [lines_removed, totalLinesChanged],
   );
-
-  const authContext = useAuthContext();
 
   return (
     <>
@@ -126,14 +120,6 @@ function MentorProjectCard({
           >
             View Project
           </a>
-          {mentor.username === authContext.userData.username && (
-            <Link
-              to={ROUTER_PATHS.PROJECT_EDIT_FORM_NOSUFFIX + id.toString()}
-              className="text-center font-semibold text-lg w-full p-2 bg-orange-700 rounded-md hover:bg-orange-800"
-            >
-              Edit Project
-            </Link>
-          )}
         </div>
       </div>
     </>

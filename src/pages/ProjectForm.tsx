@@ -31,10 +31,6 @@ function ProjectForm(props: { isEditing?: boolean }) {
 
     if (!authContext.isAuthenticated) {
       navigate(ROUTER_PATHS.HOME);
-    } else if (!authContext.isRegistered) {
-      navigate(authContext.formLink);
-    } else if (authContext.userData.type !== "mentor") {
-      navigate(authContext.dashboardLink);
     }
   });
 
@@ -120,9 +116,6 @@ function ProjectForm(props: { isEditing?: boolean }) {
                 : undefined,
             },
           }}
-          onCancel={() => {
-            navigate(ROUTER_PATHS.MENTOR_DASHBOARD);
-          }}
           onSubmit={async (responses) => {
             setError(null);
             setInfo(null);
@@ -144,7 +137,6 @@ function ProjectForm(props: { isEditing?: boolean }) {
               );
 
               if (res.is_ok) {
-                navigate(ROUTER_PATHS.MENTOR_DASHBOARD);
                 setLoading(false);
                 return true;
               } else {

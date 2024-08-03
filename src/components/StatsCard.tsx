@@ -1,6 +1,12 @@
 import React from 'react';
 
-const StatsCard = ({ title, description, image }) => {
+interface StatsCardProps {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const StatsCard: React.FC<StatsCardProps> = ({ title, description, image }) => {
   return (
     <div className="text-zinc-100 text-center bg-black/50 backdrop-blur-sm mx-4 mb-10 lg:w-1/4 sm:w-3/4 px-4 py-16 border border-[#FFFFFF]/[0.16] rounded-[10px] hover:cursor-pointer">
       <img className="px-10 pb-6" src={image} alt={title} />

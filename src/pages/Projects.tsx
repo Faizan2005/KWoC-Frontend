@@ -1,17 +1,13 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { MdCancel } from "react-icons/md";
 import ProjectCard from "../components/ProjectCard";
-import { makeRequest } from "../util/backend";
-import { IEndpointTypes } from "../util/types";
-import { shuffle } from "../util/shuffle";
 import projects_data from "../data/projects_data.json";
 import Fuse from "fuse.js";
 import SpinnerLoader from "../components/SpinnerLoader";
 import { IconContext } from "react-icons";
 
 function Projects() {
-  const [projects, setProjects] = useState(projects_data);
-  const [error, setError] = useState<string | null>(null);
+  const projects = projects_data;
 
   const [query, setQuery] = useState("");
 
@@ -52,21 +48,25 @@ function Projects() {
         </div>
       </div>
 
-      {error !== null ? (
-        <p className="text-center text-red-500">{error}</p>
-      ) : projects.length > 0 ? (
-        <div className="grid grid-cols-1 pb-16 md:grid-cols-2 lg:grid-cols-3 max-w-7xl gap-4 px-8">
-          {searchResults.map((project, i) => (
-            <ProjectCard
-              key={i}
-              project={project}
-              setQuery={(query) => setQuery(query)}
-            />
-          ))}
-        </div>
-      ) : (
-        <SpinnerLoader />
-      )}
+      {projects.length > 0 ? (
+  <div className="grid grid-cols-1 pb-16 md:grid-cols-2 lg:grid-cols-3 max-w-7xl gap-4 px-8">
+    {searchResults.map((project, i) => (
+      <ProjectCard
+        key={i}
+        project={{
+          ...project,
+          tags: [],
+          readme_link: '',
+          // Add more missing attributes as needed
+        }}
+        setQuery={(query) => setQuery(query)}
+      />
+    ))}
+  </div>
+) : (
+  <SpinnerLoader />
+)}
+
     </div>
   );
 }

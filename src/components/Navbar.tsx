@@ -2,15 +2,10 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
 import { RiCloseLine } from "react-icons/ri";
-import { IconContext } from "react-icons";
 import kwoc_logo from "../assets/kwoc_logo.png";
 import {
   ROUTER_PATHS,
-  GH_OAUTH_URL,
-  REGISTRATIONS_OPEN,
 } from "../util/constants";
-import { useAuthContext } from "../util/auth";
-import { UserType } from "../util/types";
 
 const LINKS = [
   { name: "HOME", link: ROUTER_PATHS.HOME },
@@ -57,53 +52,6 @@ function LinksList(isMobile: boolean) {
   ));
 }
 
-function LoginButton({ isMobile }: { isMobile: boolean }) {
-  const authContext = useAuthContext();
-
-  const linkClasses = getNavbarLinkClasses(isMobile);
-
-  return (
-    <>
-      {authContext.isAuthenticated ? (
-        <Link
-          className={linkClasses}
-          to={
-            authContext.isRegistered
-              ? authContext.dashboardLink
-              : authContext.formLink
-          }
-        >
-          <img
-            className="w-10 h-full rounded-full block"
-            src={`https://github.com/${authContext.userData.username}.png`}
-          />
-        </Link>
-      ) : REGISTRATIONS_OPEN ? (
-        ["mentor", "student"].map((userType, i) => (
-          <button
-            key={i}
-            className={linkClasses}
-            onClick={(e) => {
-              e.preventDefault();
-
-              authContext.setUserType(userType as UserType);
-              window.location.href = GH_OAUTH_URL;
-            }}
-          >
-            {userType.toUpperCase()} LOGIN
-          </button>
-        ))
-      ) : (
-        <Link
-          to={GH_OAUTH_URL}
-          className={getNavbarLinkClasses(isMobile, false)}
-        >
-          LOGIN
-        </Link>
-      )}
-    </>
-  );
-}
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -23,7 +23,7 @@ export function Profile() {
       <div className="flex mt-2 justify-center gap-3">
         <Link
           className="text-center py-2 px-5 py-auto h-fit text-indigo-100 bg-primary-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-primary-800 disabled:bg-gray-600"
-          to={authContext.formLink}
+          to={''}
         >
           Edit Info
         </Link>

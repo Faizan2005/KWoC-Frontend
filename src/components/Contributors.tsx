@@ -1,4 +1,4 @@
-import Data from "../data/Contributors.json";
+import Data from "../data/contributors.json";
 
 export default function Contributors() {
   return (
