@@ -1,127 +1,50 @@
-<div id="top></div>
+# React + TypeScript + Vite
 
-<!-- README TEMPLATE BASED ON https://github.com/proffapt/myREADME -->
-<!-- PROJECT SHIELDS -->
-<div align="center">
-  <p align="center">
-    <a href="https://kossiitkgp.org">
-      <img alt="KOSS Shield" src="https://img.shields.io/badge/With%20%E2%9D%A4%EF%B8%8F-KOSS-blue?style=for-the-badge">
-    </a>
-    <a href="https://github.com/kossiitkgp/KWoC-Frontend/blob/master/LICENSE">
-      <img alt="License Shield" src="https://img.shields.io/github/license/kossiitkgp/KWoC-Frontend.svg?style=for-the-badge">
-    </a>
-    <a href="https://github.com/kossiitkgp/KWoC-Frontend/contributors">
-      <img alt="Contributors Shield" src="https://img.shields.io/github/contributors/kossiitkgp/KWoC-Frontend.svg?style=for-the-badge">
-    </a>
-  </p>
-</div>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<!-- PROJECT LOGO -->
-<br />
-<!-- UPDATE -->
-<div align="center">
-  <a href="https://github.com/kossiitkgp/KWoC-Frontend">
-    <img width="140" alt="KWoC Logo" src="https://raw.githubusercontent.com/kossiitkgp/design/master/logo/kwoc/kwoc_logo.png">
-  </a>
+Currently, two official plugins are available:
 
-  <h3 align="center">KWoC Frontend</h3>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-  <p align="center">
-  <!-- UPDATE -->
-    <i>The truth redefined, once again.</i>
-    <br />
-    <a href="#table-of-contents"><strong>Get Started »</strong></a>
-    <br />
-    <a href="https://kwoc.kossiitkgp.org">Kharagpur Winter of Code</a>
-    ·
-    <a href="https://github.com/kossiitkgp/KWoC-Backend">Backend</a>
-  </p>
-</div>
+## Expanding the ESLint configuration
 
-## Table of Contents
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- [Development](#development)
-  - [Setting Up Locally](#setting-up-locally)
-- [Project Structure](#project-structure)
-  - [File Structure](#file-structure)
-  - [Libraries/Frameworks Used](#librariesframeworks-used)
-- [Archival](#archival)
-<p align="right">(<a href="#top">back to top</a>)</p>
+- Configure the top-level `parserOptions` property like this:
 
-## Development
-
-See also [Contributing Guide](./CONTRIBUTING.md), [Learning Guide](./learn.md).
-
-### Setting Up Locally
-
-- Install [NodeJS](https://nodejs.org/en).
-- Install or enable [PNPM](https://pnpm.io/installation).
-- Clone this repository.
-- Run `pnpm install` in the cloned repository to download all dependencies.
-- Run `pnpm start` to start a local development server.
-- Optionally set up [KWoC Backend](https://github.com/kossiitkgp/kwoc-backend) locally.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Project Structure
-
-### File Structure
-
-```
-.
-├── public
-└── src
-   ├── assets
-   ├── components
-   ├── data
-   ├── hooks
-   ├── styles
-   ├── utils
-   ├── constants.ts
-   └── App.tsx
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
 ```
 
-- `public`: Contains public files such as `index.html`.
-- `src`: Contains source files (JS, SCSS, assets, etc.)
-  - `assets`: Contains assets used in the source, such as images and icons.
-  - `components`: Contains reusable react components.
-  - `data`: Contains raw data.
-  - `styles`: Contains all stylesheets (SCSS).
-  - `utils`: Contains commonly used util functions.
-  - `pages`: Contains views for each of the pages.
-  - `constants.ts`: Contains globally used constants.
-  - `App.tsx`: Contains the top-level `App` component.
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-### Libraries/Frameworks Used
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
 
-- [React](https://reactjs.dev): For redefining the truth.
-- [SASS](https://sass-lang.com/): For redefining CSS styles.
-- And [many more](./package.json).
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Archival
-
-See also [KWoC Docs](https://github.com/kossiitkgp/docs/blob/master/events/kwoc.md#certificates).
-
-After KWoC ends, the website is archived. The stats data (including the total PRs, total commits, total contributors, and individual stats) is copied and added to the site source.
-
-The archived source code is committed to a branch named `kwoc-xx-archive` and hosted on `kwocxx.kossiitkgp.org`, where `xx` represents the last two digits of the year. The archive is also hosted on `kwoc.kossiitkgp.org` until the following year's website is deployed.
-
-The development for the next KWoC website continues in the default branch.
-
-> **WARNING** DO NOT COMMIT ANY PERSONAL DATA TO THE ARCHIVE.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [Img Shields](https://shields.io)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
----
-
-> Please update this documentation whenever changes are made to this project or any other relevant project that may affect this one. Future humans will praise you.
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
+```
