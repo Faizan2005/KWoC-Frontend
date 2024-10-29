@@ -1,4 +1,4 @@
-import { Project } from "../types"
+import { Project } from "../util/types"
 
 function ListItem({ item, onClick } : {item : Project, onClick: (item: Project) => void}) {
     return (

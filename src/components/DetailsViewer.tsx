@@ -1,9 +1,20 @@
-import { Project } from "../types"
+import { useState } from "react";
+import { Project } from "../util/types"
+import OrgDashModal from "./OrgDashModal";
 
 function DetailsViewer({item} : {item : Project}) {
     if(!item.name) return (
         <div></div>
     );
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+    const [isReject, setIsReject] = useState<boolean>(false);
+
+    const closeModal = () =>  setIsOpen(false);
+    const openModal = (isRej: boolean) => {
+        setIsOpen(true);
+        setIsReject(isRej);
+    }
+
     return (
         <div className="org-dash-viewer-main">
             <div className="org-dash-viewer-header">
@@ -44,10 +55,10 @@ function DetailsViewer({item} : {item : Project}) {
             </div>
             {!item.isProjectReview && <div className="org-dash-det-btn">
                 <div className="org-dash-det-btn-accept">
-                    <button className="approve-btn">Approve</button>
+                    <button className="approve-btn" onClick={() => openModal(false)}>Approve</button>
                 </div>
                 <div className="org-dash-det-btn-reject">
-                    <button className="reject-btn">Reject</button>
+                    <button className="reject-btn" onClick={() => openModal(true)}>Reject</button>
                 </div>
             </div>}
             {item.isProjectReview && <div className="org-dash-det-btn">
@@ -55,9 +66,10 @@ function DetailsViewer({item} : {item : Project}) {
                     <button>Review</button>
                 </div>
                 <div className="org-dash-det-btn-reject">
-                {item.isProjectApprove ? <button className="reject-btn">Reject</button> : <button className="approve-btn">Approve</button>}
+                {item.isProjectApprove ? <button className="reject-btn" onClick={() => openModal(true)}>Reject</button> : <button className="approve-btn" onClick={() => openModal(false)}>Approve</button>}
                 </div>
             </div>}
+            {isOpen && <OrgDashModal isReject={isReject} onClose={closeModal}/>}
         </div>
     )
 }
