@@ -16,9 +16,10 @@ function OrgDash() {
 
 	useEffect(() => {
 		setAllData(testData as Project[]);
-		setFilterData(allData.filter((item) => !item.isProjectReview));
+		const fItems = allData.filter((item) => !item.isProjectReview);
+		setFilterData(fItems);
 		setPgNo(1);
-		setSelItem({} as Project);
+		setSelItem(fItems[0]);
 	}, []);
 
 	useEffect(() => {
@@ -28,21 +29,24 @@ function OrgDash() {
 	}, [pgNo, filterData]);
 
 	const showAll = () => {
-		setFilterData(allData.filter((item) => !item.isProjectReview));
+		const fItems = allData.filter((item) => !item.isProjectReview);
+		setFilterData(fItems);
 		setPgNo(1);
-		setSelItem({} as Project);
+		setSelItem(fItems[0]);
 	}
 
 	const showAccept = () => {
-		setFilterData(allData.filter((item) => item.isProjectReview && item.isProjectApprove));
+		const fItems = allData.filter((item) => item.isProjectReview && item.isProjectApprove);
+		setFilterData(fItems);
 		setPgNo(1);
-		setSelItem({} as Project);
+		setSelItem(fItems[0]);
 	}
 
 	const showReject = () => {
-		setFilterData(allData.filter((item) => item.isProjectReview && !item.isProjectApprove));
+		const fItems = allData.filter((item) => item.isProjectReview && !item.isProjectApprove);
+		setFilterData(fItems);
 		setPgNo(1);
-		setSelItem({} as Project);
+		setSelItem(fItems[0]);
 	}
 
 	const nextPage = () => {
