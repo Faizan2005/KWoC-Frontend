@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 
 export const HeroComponent = () => {
   return (
-    <>
+    <div className='hero-container'>
       <div className="hero-text-container">
         <div className="hero-quote">
           "For the love of open source"
@@ -29,6 +29,6 @@ export const HeroComponent = () => {
           <img className="sign-image" src={sign} alt='sign-post' />
         </div>
       </div>
-    </>
+    </div>
   );
 };

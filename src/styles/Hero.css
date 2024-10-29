@@ -2,7 +2,7 @@
   background-color: #071b44;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -44,11 +44,13 @@
   max-width: 100%;
 }
 
-.igloo-image {
+.house-image,
+.igloo-image,
+.sign-image {
+  display: block;
   max-width: 100%;
   height: auto;
   margin: 0;
-  flex-shrink: 20;
 }
 
 .hero-button-container {
