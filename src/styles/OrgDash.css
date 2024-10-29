@@ -114,6 +114,15 @@
     gap: 1%;
 }
 
+.org-dash-tag{
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgba(14, 54, 136, 0.1);
+    padding: 0px 5px 0px 5px;
+}
+
 .org-dash-det-btn{
     height: 15%;
     display: flex;
