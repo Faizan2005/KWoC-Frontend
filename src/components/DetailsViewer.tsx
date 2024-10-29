@@ -1,9 +1,9 @@
-import React from 'react'
+import { Project } from "../types"
 
-function DetailsVieweer() {
+function DetailsViewer({item} : {item : Project}) {
     return (
         <div>DetailsVieweer</div>
     )
 }
 
-export default DetailsVieweer
+export default DetailsViewer

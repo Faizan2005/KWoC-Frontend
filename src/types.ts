@@ -6,6 +6,7 @@ export type Project = {
     tags: string[];
     comm_channel: string | null;
     pulls: number;
-    men_a: string;
-    neb_b_name: string;
+    men_a_name: string;
+    men_b_name: string;
+    ProjectStatus: boolean;
 }
