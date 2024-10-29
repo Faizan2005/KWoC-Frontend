@@ -1,6 +1,9 @@
 import { Project } from "../types"
 
 function DetailsViewer({item} : {item : Project}) {
+    if(!item.name) return (
+        <div></div>
+    );
     return (
         <div className="org-dash-viewer-main">
             <div className="org-dash-viewer-header">
@@ -23,7 +26,7 @@ function DetailsViewer({item} : {item : Project}) {
                     Description: {item.description}
                 </div>
                 <div className="org-dash-tags">
-                    Tags: {item.tags.map((item) => (
+                    Tags: {item.tags && item.tags.map((item) => (
                         <div className="org-dash-tag">{item}</div>
                     ))}
                 </div>
@@ -34,14 +37,22 @@ function DetailsViewer({item} : {item : Project}) {
                     Pull Requests: {item.pullRequests}
                 </div>
             </div>
-            <div className="org-dash-det-btn">
+            {!item.isProjectReview && <div className="org-dash-det-btn">
                 <div className="org-dash-det-btn-accept">
                     <button>Accept</button>
                 </div>
                 <div className="org-dash-det-btn-reject">
                     <button>Reject</button>
                 </div>
-            </div>
+            </div>}
+            {item.isProjectReview && <div className="org-dash-det-btn">
+                <div className="org-dash-det-btn-accept">
+                    <button>Review</button>
+                </div>
+                <div className="org-dash-det-btn-reject">
+                {item.isProjectApprove ? <button>Reject</button> : <button>Approve</button>}
+                </div>
+            </div>}
         </div>
     )
 }
