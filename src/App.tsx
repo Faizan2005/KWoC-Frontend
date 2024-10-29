@@ -1,6 +1,7 @@
 import './styles/App.css'
 import { HeroComponent } from './components/Hero'
 import Snowfall from 'react-snowfall';
+import { AboutSection } from './components/About';
 
 function App() {
 
@@ -12,9 +13,8 @@ function App() {
         wind={[-0.5, 0.5]}
         radius={[0.5, 1.5]}
       />
-      <div className='hero-container'>
-        <HeroComponent />
-      </div>
+      <HeroComponent />
+      <AboutSection />
     </div>
   )
 }

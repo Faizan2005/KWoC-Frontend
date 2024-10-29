@@ -1,0 +1,17 @@
+.about-container {
+  background-color: #fff;
+  margin: 0;
+  color: #000;
+}
+
+.about-text {
+  padding: 8rem;
+}
+
+.about-container h1 {
+  margin: 0;
+}
+
+.about-container p {
+  text-align: left;
+}
