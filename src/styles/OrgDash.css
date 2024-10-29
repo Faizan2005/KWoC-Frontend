@@ -52,26 +52,31 @@
     width: 20%;
 }
 
+.org-dash-view{
+    height: 75%;
+}
+
 .org-dash-table-nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
+    height: 10%;
 }
 
 .org-dash-table{
-    display: flex;
-    flex-direction: column;
     gap: 1rem 0%;
     width: 90%;
-    padding-bottom: 2%;
+    height: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
+.org-dash-table-tab{
+    width: 100%;
+}
+
 .ls-comp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     border-color: black;
     border-style: solid;
@@ -79,5 +84,5 @@
 }
 
 .ls-comp:hover{
-    background-color: #fff;
+    background-color: rgba(14, 54, 136, 0.25);
 }

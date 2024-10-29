@@ -17,7 +17,8 @@ function OrgDash() {
 	useEffect(() => {
 		setAllData(testData as Project[]);
 		setFilterData(allData);
-	}, []);
+		setPgNo(1);
+	}, [testData]);
 
 	useEffect(() => {
 		const startidx = (pgNo - 1) * PAGENATION_LEN;
@@ -27,14 +28,17 @@ function OrgDash() {
 
 	const showAll = () => {
 		setFilterData(allData);
+		setPgNo(1);
 	}
 
 	const showAccept = () => {
-		setFilterData(allData.filter((item) => item.isProjectActive))
+		setFilterData(allData.filter((item) => item.isProjectActive));
+		setPgNo(1);
 	}
 
 	const showReject = () => {
-		setFilterData(allData.filter((item) => !item.isProjectActive))
+		setFilterData(allData.filter((item) => !item.isProjectActive));
+		setPgNo(1);
 	}
 
 	const nextPage = () => {
@@ -61,9 +65,11 @@ function OrgDash() {
 				</div>
 				<div className="org-dash-view">
 					<div className="org-dash-table">
-						{currPage.map((value) => (
-							<ListItem item={value}/>
-						))}
+						<table className="org-dash-table-tab">
+							{currPage.map((value) => (
+								<ListItem item={value}/>
+							))}
+						</table>
 					</div>
 					<div className="org-dash-table-nav">
 						<button className='org-dash-table-back' onClick={() => prevPage()}>&lt;</button>

@@ -2,11 +2,11 @@ import { Project } from "../types"
 
 function ListItem({ item } : {item : Project}) {
     return (
-        <div className="ls-comp">
-            <div className="ls-comp-name">{item.name}</div>
-            <div className="ls-comp-mentor">{item.mentorAName}</div>
-            <div className="ls-comp-pull">{item.pullRequests}</div>
-        </div>
+        <tr className="ls-comp">
+            <td className="ls-comp-name">{item.name}</td>
+            <td className="ls-comp-mentor">{item.mentorAName}</td>
+            <td className="ls-comp-pull">{item.pullRequests}</td>
+        </tr>
     )
 }
 
