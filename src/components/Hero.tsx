@@ -14,8 +14,8 @@ export const HeroComponent = () => {
           <h1>Kharagpur <span className='yellow-text'>Winter<br />of Code</span> 2024</h1>
         </div>
         <div className="hero-button-container">
-          <button className='hero-button'> Student Dashboard </button>
-          <button className='hero-button'> Mentor Dashboard </button>
+          <button className='button'> Student Dashboard </button>
+          <button className='button'> Mentor Dashboard </button>
         </div>
       </div>
       <div className="hero-images">
