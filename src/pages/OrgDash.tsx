@@ -67,7 +67,7 @@ function OrgDash() {
 					<div className="org-dash-table">
 						<table className="org-dash-table-tab">
 							{currPage.map((value) => (
-								<ListItem item={value}/>
+								<ListItem item={value} onClick={setSelItem}/>
 							))}
 						</table>
 					</div>
