@@ -1,1 +1,1 @@
-const PAGEINATION_LEN = 10;
+export const PAGEINATION_LEN = 5;

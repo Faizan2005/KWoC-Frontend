@@ -1,12 +1,12 @@
 export type Project = {
-    Name: string;
-    Description: string;
-    RepoURL: string;
-    ReadmeURL: string;
+    name: string;
+    description: string;
+    repoUrl: string;
+    readmeUrl: string;
     tags: string[];
-    comm_channel: string | null;
-    pulls: number;
-    men_a_name: string;
-    men_b_name: string;
-    ProjectStatus: boolean;
-}
+    communicationChannel?: string; 
+    pullRequests: number;
+    mentorAName: string;
+    mentorBName: string;
+    isProjectActive: boolean;
+};
