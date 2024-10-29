@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import ListItem from '../components/ListItem'
 import DetailsViewer from '../components/DetailsViewer'
-import { Project } from '../types'
+import { Project } from '../util/types'
 import testData from '../testData.json'
-import { PAGENATION_LEN } from '../constants'
+import { PAGENATION_LEN } from '../util/constants'
 import '../styles/OrgDash.css'
 
 function OrgDash() {

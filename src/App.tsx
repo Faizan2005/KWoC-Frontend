@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import RegistrationForm from "./pages/RegistrationForm";
 import { ROUTER_PATHS } from "./util/constants";
+import OrgDash from "./pages/OrgDash";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
             path={ROUTER_PATHS.STUDENT_FORM}
             element={<RegistrationForm isStudent={true} />}
           />
+          <Route
+            path="/org-dash"
+            element={<OrgDash />}
+            />
         </Routes>
       </BrowserRouter>
     </div>
