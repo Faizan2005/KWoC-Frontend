@@ -51,3 +51,5 @@ export const STUDENT_MANUAL_LINK =
 
 export const GH_OAUTH_CLIENT_ID = import.meta.env.VITE_GH_OAUTH_CLIENT_ID;
 export const GH_OAUTH_URL = `https://github.com/login/oauth/authorize?client_id=${GH_OAUTH_CLIENT_ID}&state=replacethiswithrandomtextlater`;
+
+export const PAGENATION_LEN = 6;

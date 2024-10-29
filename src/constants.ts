@@ -1,1 +1,0 @@
-export const PAGENATION_LEN = 6;

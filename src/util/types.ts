@@ -141,3 +141,18 @@ export interface IProjectDashboardInfo extends IProject {
 export interface IProjectTags {
   [key: string]: string;
 }
+
+export type Project = {
+  name: string;
+  description: string;
+  repoUrl: string;
+  readmeUrl: string;
+  tags: string[];
+  communicationChannel?: string; 
+  pullRequests: number;
+  mentorAName: string;
+  mentorBName: string;
+  isProjectApprove: boolean;
+  isProjectReview: boolean;
+  projectReview: string
+};
