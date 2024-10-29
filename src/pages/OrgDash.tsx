@@ -10,39 +10,43 @@ function OrgDash() {
 	const [allData, setAllData] = useState<Project[]>([]);
 	const [filterData, setFilterData] = useState<Project[]>([]);
 	const [currPage, setCurrPage] = useState<Project[]>([]);
-	const [pgNo, setPgNo] = useState<number>(1);
+	const [pgNo, setPgNo] = useState<number>(0);
 
 	const [selItem, setSelItem] = useState<Project>({} as Project);
 
 	useEffect(() => {
 		setAllData(testData as Project[]);
-		setFilterData(allData);
+		setFilterData(allData.filter((item) => !item.isProjectReview));
 		setPgNo(1);
-	}, [testData]);
+		setSelItem({} as Project);
+	}, []);
 
 	useEffect(() => {
 		const startidx = (pgNo - 1) * PAGENATION_LEN;
 		const endidx = Math.min(startidx + PAGENATION_LEN, filterData.length);
 		setCurrPage(filterData.slice(startidx, endidx));
-	}, [pgNo]);
+	}, [pgNo, filterData]);
 
 	const showAll = () => {
-		setFilterData(allData);
+		setFilterData(allData.filter((item) => !item.isProjectReview));
 		setPgNo(1);
+		setSelItem({} as Project);
 	}
 
 	const showAccept = () => {
-		setFilterData(allData.filter((item) => item.isProjectActive));
+		setFilterData(allData.filter((item) => item.isProjectReview && item.isProjectApprove));
 		setPgNo(1);
+		setSelItem({} as Project);
 	}
 
 	const showReject = () => {
-		setFilterData(allData.filter((item) => !item.isProjectActive));
+		setFilterData(allData.filter((item) => item.isProjectReview && !item.isProjectApprove));
 		setPgNo(1);
+		setSelItem({} as Project);
 	}
 
 	const nextPage = () => {
-		if(pgNo <= filterData.length / PAGENATION_LEN) setPgNo(pgNo + 1);
+		if(pgNo < filterData.length / PAGENATION_LEN) setPgNo(pgNo + 1);
 	}
 
 	const prevPage = () => {
@@ -81,7 +85,7 @@ function OrgDash() {
 				</div>
 			</div>
 			<div className="org-dash-right">
-				<DetailsViewer item={selItem}/>
+				{selItem && <DetailsViewer item={selItem}/>}
 			</div>
 		</div>
   	)
