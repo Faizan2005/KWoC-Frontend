@@ -5,17 +5,17 @@ import "../styles/Hero.css";
 
 export const HeroComponent = () => {
   return (
-    <>
+    <div className='hero-container'>
       <div className="hero-text-container">
         <div className="hero-quote">
           "For the love of open source"
         </div>
         <div className="hero-title">
-          <h1>Kharagpur Winter of Code 2024</h1>
+          <h1>Kharagpur <span className='yellow-text'>Winter<br />of Code</span> 2024</h1>
         </div>
         <div className="hero-button-container">
-          <button> Student Dashboard </button>
-          <button> Mentor Dashboard </button>
+          <button className='button'> Student Dashboard </button>
+          <button className='button'> Mentor Dashboard </button>
         </div>
       </div>
       <div className="hero-images">
@@ -29,6 +29,6 @@ export const HeroComponent = () => {
           <img className="sign-image" src={sign} alt='sign-post' />
         </div>
       </div>
-    </>
+    </div>
   );
 };
