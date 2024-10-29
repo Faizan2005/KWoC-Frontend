@@ -10,6 +10,30 @@
   width: 100%;
 }
 
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-quote {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title h1 {
+  font-size: 5rem;
+  color: #d9d9d9;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.yellow-text {
+  color: #ffe336;
+}
+
 .hero-images {
   display: flex;
   flex-direction: row;
@@ -33,4 +57,15 @@
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.hero-button {
+  background: #fff;
+  color: #0a0a19;
+  box-shadow: 4px 4px #6a6a6a;
+  transition: scale 150ms;
+}
+
+.hero-button:hover {
+  scale: 1.08;
 }
