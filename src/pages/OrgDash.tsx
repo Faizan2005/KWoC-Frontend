@@ -61,10 +61,10 @@ function OrgDash() {
 						<button onClick={() => showAll()}>Review</button>
 					</div>
 					<div className="org-dash-btn-accept">
-						<button onClick={() => showAccept()}>Accepted</button>
+						<button onClick={() => showAccept()} className='approve-btn'>Approved</button>
 					</div>
 					<div className="org-dash-btn-rej">
-						<button onClick={() => showReject()}>Rejected</button>
+						<button onClick={() => showReject()} className='reject-btn'>Rejected</button>
 					</div>
 				</div>
 				<div className="org-dash-view">

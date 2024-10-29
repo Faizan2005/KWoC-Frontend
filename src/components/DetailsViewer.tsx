@@ -36,13 +36,18 @@ function DetailsViewer({item} : {item : Project}) {
                 <div className="org-dash-pull">
                     Pull Requests: {item.pullRequests}
                 </div>
+                {item.isProjectReview && 
+                    <div className="org-dash-review">
+                        {item.isProjectApprove ? <div className="org-dash-approve">Approved</div> : <div className="org-dash-reject">Rejected</div>}
+                    </div>
+                }
             </div>
             {!item.isProjectReview && <div className="org-dash-det-btn">
                 <div className="org-dash-det-btn-accept">
-                    <button>Accept</button>
+                    <button className="approve-btn">Approve</button>
                 </div>
                 <div className="org-dash-det-btn-reject">
-                    <button>Reject</button>
+                    <button className="reject-btn">Reject</button>
                 </div>
             </div>}
             {item.isProjectReview && <div className="org-dash-det-btn">
@@ -50,7 +55,7 @@ function DetailsViewer({item} : {item : Project}) {
                     <button>Review</button>
                 </div>
                 <div className="org-dash-det-btn-reject">
-                {item.isProjectApprove ? <button>Reject</button> : <button>Approve</button>}
+                {item.isProjectApprove ? <button className="reject-btn">Reject</button> : <button className="approve-btn">Approve</button>}
                 </div>
             </div>}
         </div>

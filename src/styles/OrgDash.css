@@ -6,15 +6,17 @@
 }
 
 .org-dash-left{
-    flex: 3;
+    flex: 5;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .org-dash-right{
-    flex: 1;
+    flex: 2;
     height: 100%;
+    border-left: 1px solid #fff;
+    padding-left: 2%;
 }
 
 .org-dash-title{
@@ -47,8 +49,16 @@
     width: 20%;
 }
 
+.approve-btn{
+    background-color: #208d44;
+}
+
 .org-dash-btn-rej{
     width: 20%;
+}
+
+.reject-btn{
+    background-color: #ff7a66;
 }
 
 .org-dash-view{
@@ -77,9 +87,12 @@
 
 .ls-comp{
     align-items: center;
-    border-color: black;
-    border-style: solid;
+    border: 1px solid #fff;
     height: 5rem;
+}
+
+.ls-comp td{
+    border: 1px solid #fff;
 }
 
 .ls-comp:hover{
@@ -130,4 +143,29 @@
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.org-dash-review{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 10%;
+}
+
+.org-dash-approve{
+    border: solid 1px #208d44;
+    color: #208d44;
+    width: 75%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.org-dash-reject{
+    border: solid 1px #ff7a66;
+    color: #ff7a66;
+    width: 75%;
+    text-align: center;
+    border-radius: 15px;
 }
