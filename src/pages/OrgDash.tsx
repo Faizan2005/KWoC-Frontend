@@ -4,6 +4,7 @@ import DetailsViewer from '../components/DetailsViewer'
 import { Project } from '../types'
 import testData from '../testData.json'
 import { PAGENATION_LEN } from '../constants'
+import '../styles/OrgDash.css'
 
 function OrgDash() {
 	const [allData, setAllData] = useState<Project[]>([]);
@@ -44,32 +45,30 @@ function OrgDash() {
 		if(pgNo >= 2) setPgNo(pgNo - 1);
 	}
 	return (
-		<div>
+		<div className='org-dash-main'>
 			<div className="org-dash-left">
+				<div className="org-dash-title">Mentor Projects</div>
 				<div className="org-dash-type-btn">
-					<div className="btn-all">
-						<button onClick={() => showAll()}>All</button>
+					<div className="org-dash-btn-all">
+						<button onClick={() => showAll()}>Review</button>
 					</div>
-					<div className="btn-accept">
+					<div className="org-dash-btn-accept">
 						<button onClick={() => showAccept()}>Accepted</button>
 					</div>
-					<div className="btn-rej">
+					<div className="org-dash-btn-rej">
 						<button onClick={() => showReject()}>Rejected</button>
 					</div>
 				</div>
 				<div className="org-dash-view">
 					<div className="org-dash-table">
-						{currPage.map((value, idx) => (
-							<div>
-								<ListItem item={value}/>
-								{idx + 1}
-							</div>
+						{currPage.map((value) => (
+							<ListItem item={value}/>
 						))}
 					</div>
 					<div className="org-dash-table-nav">
 						<button className='org-dash-table-back' onClick={() => prevPage()}>&lt;</button>
 						<div className="org-dash-table-info">
-							Showing {(pgNo - 1) * PAGENATION_LEN + 1} - {pgNo * PAGENATION_LEN} of {filterData.length}
+							Showing {(pgNo - 1) * PAGENATION_LEN + 1} - {Math.min(pgNo * PAGENATION_LEN, filterData.length)} of {filterData.length}
 						</div>
 						<button className='org-dash-table-next' onClick={() => nextPage()}>&gt;</button>
 					</div>
