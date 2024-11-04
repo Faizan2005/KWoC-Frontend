@@ -12,6 +12,11 @@ function Home() {
         speed={[0.5, 1]} // array takes [min, max]
         wind={[-0.5, 0.5]}
         radius={[0.5, 1.5]}
+        style={{
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
+        }}
       />
       <Header />
       <HeroComponent />
