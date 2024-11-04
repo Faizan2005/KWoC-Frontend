@@ -2,6 +2,7 @@ import Snowfall from "react-snowfall";
 import { HeroComponent } from "../components/Hero";
 import { AboutSection } from "../components/About";
 import { Header } from "../components/Header";
+import { WhyKWoC } from "../components/WhyKWoC";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Header />
       <HeroComponent />
       <AboutSection />
+      <WhyKWoC />
     </>
   );
 }
