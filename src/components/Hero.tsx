@@ -2,6 +2,7 @@ import houses from '../assets/houses-left.png';
 import hook from '../assets/igloo-scroll-hook-edit.png';
 import sign from '../assets/sign-post.png';
 import "../styles/Hero.css";
+import "../styles/App.css";
 
 export const HeroComponent = () => {
   return (
@@ -14,8 +15,8 @@ export const HeroComponent = () => {
           <h1>Kharagpur <span className='yellow-text'>Winter<br />of Code</span> 2024</h1>
         </div>
         <div className="hero-button-container">
-          <button className='button'> Student Dashboard </button>
-          <button className='button'> Mentor Dashboard </button>
+          <button className="hero-button"> Student Manual </button>
+          <button className="hero-button"> Mentor Manual </button>
         </div>
       </div>
       <div className="hero-images">

@@ -34,6 +34,20 @@
   color: #ffe336;
 }
 
+.hero-button {
+  background: #fff;
+  color: #0a0a19;
+  box-shadow: 4px 4px #6a6a6a;
+  transition: scale 200ms;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.hero-button:hover {
+  scale: 1.06;
+}
+
 .hero-images {
   display: flex;
   flex-direction: row;

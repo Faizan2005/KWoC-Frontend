@@ -104,9 +104,9 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem; 
+    padding-bottom: 0.5rem;
     border-radius: 5px;
-    box-shadow: 3px 3px 0 3px #707070;
+    box-shadow: 4px 4px #6a6a6a;
 }
 
 .container {
