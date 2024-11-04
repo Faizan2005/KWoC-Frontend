@@ -71,10 +71,11 @@ function Timeline() {
   }, []);
 
   return (
-    <div className="mb-60" id="timeline" style={{ backgroundColor: "#071b44", maxWidth: "600px", margin: "0 auto" }}>
-      <h1 className=" font-display text-zinc-300 text-center mb-12 text-4xl font-extrabold leading-none tracking-tight md:text-5xl mt-12 lg:text-8xl lg:mb-36">
-        TIMELINE
+    <div className="mb-60" id="timeline" style={{ backgroundColor: "#071b44", maxWidth: "580px", margin: "0 auto" }}>
+      <h1 className=" font-display text-zinc-300 text-center mb-12 text-4xl font-extrabold leading-none tracking-tight md:text-5xl mt-12 lg:text-8xl lg:mb-36" style={{color:"#ffe336", fontSize: "5rem", fontWeight:"900"}}>
+        <i>Timeline</i>
       </h1>
+      {/* <h2>Stay on Track!</h2> */}
       <div className="flex justify-center mb-1/10 px-5">
         <svg
           id="timeline-svg"
@@ -82,7 +83,7 @@ function Timeline() {
           viewBox="0 0 400 1760"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          style={{ width: "100%" }}
+          style={{ width: "90%" }}
         >
           {EVENTS.map((event, i) => (
             <TimelineEvent
@@ -136,14 +137,14 @@ function TimelineEvent({
       <path
         d={`M ${x_range[0]} ${y_level} H ${x_range[1]}`}
         stroke="#808080"
-        strokeWidth="2"
+        strokeWidth="2.5"
       />
 
       <text
         x={text_x}
         y={y_level}
         fill="white"
-        fontFamily="Cantarell"
+        // fontFamily="Cantarell"
         fontWeight="500"
         letterSpacing="0em"
         textAnchor={alignRight ? "end" : "start"}
